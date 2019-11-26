@@ -1,0 +1,685 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+
+<title>Proceed Shipping Limited - Courier Services & Delivery Company</title>
+
+
+
+<meta charset=utf-8 >
+
+<meta name="keywords" content="Proceed Shipping Limited, Courier Services & Delivery Company" >
+
+<meta name="description" content="Looking for a reliable international vehicle shipper?. We have helped customers transport their vehicles overseas safely since 2007.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="shortcut icon" href="favicon.ico">
+
+
+
+<!-- CSS begin -->
+
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css" >
+
+<link rel="stylesheet" type="text/css" href="css/skeleton.css" >
+
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css"  >
+
+<link rel="stylesheet" href="css/switcher/style.css">
+
+<link rel="stylesheet" href="css/layout/wide.css" id="layout">
+
+<link rel="stylesheet" href="css/colors/red.css" id="colors">
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+
+
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
+
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" media="screen" href="css/style-ie.css" /><![endif]-->
+
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ei8fix.css" ><![endif]-->
+
+
+
+<!-- flexslider slider CSS -->
+
+
+
+<link rel="stylesheet" type="text/css" href="css/flexslider.css"  >
+
+
+
+<!--end flexslider slider CSS -->
+
+
+
+<!-- CSS end -->
+
+
+
+<!--[if lt IE 9]>
+
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+		<![endif]-->
+
+
+
+</head>
+
+<body>
+
+
+
+<div class="topnav">
+
+	<form method="get" action="tracking.php" class="trackWrapper">
+
+		<input type="text" placeholder="Enter your tracking number..." name="tr" id="tracking">
+
+		<button type="submit" class="button medium r-m-plus r-m-full"><b>TRACK</b></button>
+
+	</form>
+
+
+
+	<div id="google_translate_element"></div>
+
+
+
+	<div class="chatWrapper">
+
+		<script src="livesupport/welive_image.php" language="javascript"></script>
+
+	</div>
+
+	
+
+</div>
+
+				
+
+<div id="wrap" class="boxed">
+
+	<div class="grey-bg"> <!-- Grey bg  --> 
+
+		
+
+		<!--[if lte IE 7]>
+
+	<div id="ie-container">
+
+		<div id="ie-cont-close">
+
+			<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+
+		</div>
+
+		<div id="ie-cont-content" >
+
+			<div id="ie-cont-warning">
+
+				<img src='images/ie-warning.jpg' alt='Warning!'>
+
+			</div>
+
+			<div id="ie-cont-text" >
+
+				<div id="ie-text-bold">
+
+					You are using an outdated browser
+
+				</div>
+
+				<div id="ie-text">
+
+					For a better experience using this site, please upgrade to a modern web browser.
+
+				</div>
+
+			</div>
+
+			<div id="ie-cont-brows" >
+
+				<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+
+				<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warning-opera.jpg' alt='Download Opera'></a>
+
+				<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warning-safari.jpg' alt='Download Safari'></a>
+
+				<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<![endif]--> 
+
+		
+
+		<!-- HEADER -->
+
+		<header id="header">
+
+			
+
+			<div class="container clearfix">
+
+				<div id="header-position" class="sixteen columns">
+
+					<div class="header-container m-top-30 clearfix">
+
+						<div class="header-logo-container ">
+
+							<div class="logo-container"> <h4> <a href="index.php" class="logo" rel="home" title="Home"> Proceed Shipping Limited </a> </h4> </div>
+
+						</div>
+
+						<div class="header-menu-container right"> 
+
+							<!-- TOP MENU -->
+
+							<nav id="main-nav">
+
+								<ul class="sf-menu clearfix">
+
+									<li ispage="homepage"><a href="index.php">Home</a></li>
+
+									<li ispage="aboutpage"><a href="services.php">Features</a>
+
+										<ul>
+
+											<li><a href="about-us.php">About Us</a></li>
+
+											<li> <a href="services.php">Services</a>
+
+												<ul>
+
+													<li><a href="onlineshop-transport.php">Online Shop & Ship</a></li>
+
+													<li><a href="cars-transport.php">Car Shipping</a></li>
+
+													<li><a href="motorcycle-transport.php">Motorcycle Shipping</a></li>
+
+													<li><a href="boats-transport.php">Boat Shipping</a></li>
+
+													<li><a href="moving-transport.php">Moving Services</a></li>
+
+												</ul>
+
+											</li>
+
+											<li><a href="#" class="accountswitch">My Account</a></li>
+
+										</ul>
+
+									</li>
+
+									<li ispage="whatpage"><a href="what_to_expect.php">What To Expect</a>
+
+									<li ispage="howpage"><a href="how_it_works.php">How it works</a></li>
+
+									<li ispage="faqpage"><a href="faq.php">FAQs</a></li>
+
+									<li ispage="registerpage"><a href="register.php">Sign up</a></li>
+
+									<li ispage="contactpage"><a href="contact.php">Contact</a></li>
+
+								</ul>
+
+							</nav>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</header>	<b id="page" page="myaccount"></b> 
+
+	<!-- PAGE TITLE -->
+	<div class="container m-bot-35 clearfix">
+		<div class="sixteen columns">
+			<div class="page-title-container clearfix">
+				<h1 class="page-title">My Account - <b>Afrisia</b></h1>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<!-- Grey bg end --> 
+
+
+<!-- CONTENT -->
+<div class="container clearfix m-bot-30">
+	<div class="row">
+	
+		<!-- START MENIU -->
+				<div class="four columns m-bot-30">
+		
+			<div class="caption-container-main m-bot-30 m-t-min-1">
+				<div class="caption-text-container"><b>Account</b> Options</div>
+				<div class="content-container-white caption-bg "></div>
+			</div>
+			
+			<article class="box-icon clearfix">
+				<a href="myaccount.php">
+					<i class="icon-user"></i>
+					<h3>My Account</h3>
+				</a>
+			</article>
+			<article class="box-icon clearfix">
+				<a href="transactions.php">
+					<i class="icon-truck"></i>
+					<h3>Transactions </h3>
+				</a>
+			</article>
+			<article class="box-icon clearfix">
+				<a href="start_transaction.php">
+					<i class="icon-dropbox"></i>
+					<h3><b>START</b> Transaction</h3>
+				</a>
+			</article>
+			<article class="box-icon clearfix">
+				<a href="edit_profile.php">
+					<i class="icon-edit"></i>
+					<h3>Edit my profile</h3>
+				</a>
+			</article>
+			<article class="box-icon clearfix">
+				<a href="gethelp.php">
+					<i class="icon-question-sign"></i>
+					<h3>SUPPORT TICKETS</h3>
+				</a>
+			</article>
+		</div>
+		<!-- END MENIU -->
+		
+		<!-- START MY ACCOUNT -->
+		<div class="twelve columns">
+			
+			<div class="caption-container-main m-bot-30 m-t-min-1">
+				<div class="caption-text-container">Transactions</div>
+				<div class="content-container-white caption-bg "></div>
+			</div>
+			<p>View and manage your transactions. Use the list below to view and process your transactions</p>
+			
+			<div class="right m-bot-25"> &nbsp; <b> 0</b> - <b>0</b> of <b>0</b> orders &nbsp;</div>
+			<table class="transactionsTable">
+				
+					<tr>
+						<td class="dataColumn"><div>&nbsp;</div></td>
+						<td class="descriptionColumn">
+							<h3 class="title-block"> No Orders </h3>
+						</td>
+						<td class="statusColumn"> <div><b>&nbsp;</b></div> </td>
+					</tr>
+								</table>
+			<div class="right m-top-25 m-bot-25"> &nbsp; <b> 0</b> - <b>0</b> of <b>0</b> orders &nbsp;</div>
+			<ul class="legend m-top-25">
+				<li><i class="icon-circle"></i> Buying</li>
+				<li><i class="icon-ok-circle"></i>I bought</li>
+				<li><i class="icon-circle-blank"></i> Selling</li>
+				<li><i class="icon-ok-sign"></i> I sold</li>
+			</ul>
+		</div>
+		<!-- END MY ACCOUNT -->
+
+	</div>
+</div>
+	<!-- NEWS LETTER -->
+
+	<div class="dark-grey-bg">
+
+		<div class="container m-bot-20 clearfix">
+
+			<div class="sixteen columns">
+
+				<div class="newsletter-container clearfix">
+
+					<div class="nl-img-container"> <img src="images/icon-tracking.png" alt="tracking"> </div>
+
+					<div class="nl-text-container clearfix">
+
+						<div class="caption"> <span class="bold">Track</span> Your Vehicle </div>
+
+						<div class="nl-text">Use this tool to find out quickly the status of your vehicle<br/>in the delivery process.</div>
+
+						<div class="nl-form-container">
+
+							<form class="newsletterform" method="get" action="tracking.php" id="trackin-form">
+
+								<a name="entertrackingnumber"></a>
+
+								<input type="text" placeholder="Enter Your Tracking Number..." name="tr" id="tr"><button class="nl-button">TRACK</button>
+
+							</form>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	
+
+	<!-- Accreditations -->
+
+	<div class="container clearfix">
+
+		<div class="sixteen columns m-bot-20">
+
+			<ul class="our-clients-container clearfix ">
+
+				<li class=""> <a href="accreditations.php">
+
+					<div class="bw-wrapper"> <img src="images/logo1.png" alt="client" > </div>
+
+					</a> </li>
+
+				<li class=""> <a href="accreditations.php">
+
+					<div class="bw-wrapper"> <img src="images/logo2.png" alt="client" > </div>
+
+					</a> </li>
+
+				<li class=""> <a href="accreditations.php">
+
+					<div class="bw-wrapper"> <img src="images/logo3.png" alt="client"> </div>
+
+					</a> </li>
+
+				<li class=""> <a href="accreditations.php">
+
+					<div class="bw-wrapper"> <img src="images/logo4.png" alt="client" > </div>
+
+					</a> </li>
+					
+				<li class=""> <a href="accreditations.php">
+
+					<div class="bw-wrapper"> <img src="images/logo5.png" alt="client" > </div>
+
+					</a> </li>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!-- FOOTER -->
+
+	<footer>
+
+		<div class="footer-content-bg">
+
+			<div class="container clearfix">
+
+				<div class="two-thirds column">
+
+					<h3 class="caption footer-block" style="text-transform:uppercase;">Why <b>Proceed Shipping Limited</b></h3>
+
+					<div class="footer-contact-info">
+
+						<p>&nbsp;</p>
+
+						<p class="title-font-14">Proceed Shipping Limited utilizes insured, secured and bonded facilities. NEW - We provide warehousing, packing, crating, trucking and loading services out of our new location in Seattle WA, US</p>
+
+						<p class="title-font-14">We own and operate additional cargo shipping companies in Spain & Ireland and more worldwide destinations are covered by our affiliated organization member companies.</p>
+						
+						<p class="title-font-14">Our partner KMBB from Ireland</p>
+
+					</div>
+
+				</div>
+
+				<div class="one-third column ">
+
+					<h3 class="caption footer-block">CONTACT <span class="bold">INFO</span></h3>
+
+					<ul class="footer-contact-info">
+
+						<li class="footer-loc"> Globe House, Eclipse Park, Sittingbourne Rd, Maidstone<br/>ME14 3EN, United Kingdom </li>
+						
+						<li class="footer-loc">7245 2nd Ave SW Seattle, WA 98108, USA </li>
+
+						<li class="footer-mail"> office@proceed-shipping.com </li>
+
+						<li class="footer-phone">
+
+							<br/>
+
+							Monday-Friday: 08:00 - 17:00 <br/>Saturday / Sunday: Closed
+
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="footer-copyright-bg">
+
+			<div class="container ">
+
+				<div class="sixteen columns clearfix">
+
+					<div class="footer-menu-container">
+
+						<nav class="clearfix" id="footer-nav">
+
+							<ul class="footer-menu">
+
+								<li><a href="privacy.php">Privacy Policy</a></li>
+
+								<li><a href="terms.php">Terms and Conditions</a></li>
+
+							</ul>
+
+						</nav>
+
+					</div>
+
+					<div class="footer-copyright-container right-text"> &copy; 2019 Proceed Shipping Limited Company No: 07223653. All Rights Reserved. </div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</footer>
+
+	<p id="back-top"> <a href="#top" title="Back to Top"><span></span></a> </p>
+
+</div>
+
+<!-- End wrap -->
+
+
+
+<div class="switcher">
+
+	<h2><b>My Account</b> <a href="#"><img class="s-s-icon" title="My Account" src="images/logedin.png" alt="Style switcher"/></a></h2>
+
+	<div class="content2">
+
+		
+		<div class="item-title-main-container clearfix">
+
+			<div class="item-title-text-container"> 
+
+				Afrisia
+			</div>
+
+		</div>
+
+		<ul class="styled-list style-5">
+
+			<li><a href="myaccount.php">View Profile</a></li>
+
+			<li><a href="transactions.php">View Transactions </a></li>
+
+			<li><a href="start_transaction.php">Request new transaction</a></li>
+
+		</ul>
+
+		<div class="item-title-main-container clearfix">
+
+			<div class="item-title-text-container"> <span class="bold">GET</span> HELP </div>
+
+		</div>
+
+		<ul class="styled-list style-5">
+
+			<li><a href="gethelp.php">Support Tickets</a></li>
+
+			<li><a href="contact.php">Contact</a></li>
+
+		</ul>
+
+		<button class="button medium" style="width: 100%" onClick="window.location='logout.php'"><i class="icon-lock"></i> Logout</button>
+
+		
+	</div>
+
+</div>
+
+
+
+<!-- JS begin --> 
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 
+
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+
+<script type="text/javascript" src="js/superfish.js"></script> 
+
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+
+
+<!-- Flex Slider  --> 
+
+<script src="js/jquery.flexslider.js"></script> 
+
+<script src="js/flex-slider.js"></script> 
+
+<!-- end Flex Slider -->
+
+
+
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script> 
+
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script> 
+
+<script type="text/javascript" src="js/jQuery.BlackAndWhite.min.js"></script> 
+
+<script type="text/javascript" src="js/jquery.validate.min.js"></script> 
+
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.js"></script>
+
+
+
+<script type="text/javascript" src="js/jquery.quicksand.js"></script> 
+
+<script type="text/javascript" src="js/main.js"></script> 
+
+<script type="text/javascript" src="js/jquery-cookie.js"></script> 
+
+<!-- Google Translate -->
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script src="js/styleswitcher.js"></script> 
+
+
+
+<script type='text/javascript'>
+
+	$(function(){
+
+		var iFrames = $('iframe');
+
+		function iResize() {
+
+			for (var i = 0, j = iFrames.length; i < j; i++) {
+
+			  iFrames[i].style.height = iFrames[i].contentWindow.document.body.offsetHeight + 'px';}
+
+			}
+
+			if ($.browser.safari || $.browser.opera) { 
+
+			   iFrames.load(function(){
+
+				   setTimeout(iResize, 0);
+
+			   });
+
+			   for (var i = 0, j = iFrames.length; i < j; i++) {
+
+					var iSource = iFrames[i].src;
+
+					iFrames[i].src = '';
+
+					iFrames[i].src = iSource;
+
+			   }
+
+			} else {
+
+			   iFrames.load(function() { 
+
+				   this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
+
+			   });
+
+			}
+
+		}
+
+	);
+
+</script>
+
+
+
+</body>
+
+</html><script>
+$(document).ready(function() {
+	$('.transactionsTable tr').click(function() {
+		if ($(this).attr('href') !== undefined) {
+			window.location = $(this).attr("href");
+		} else {
+			// attribute does not exist
+		}
+	});
+	
+});
+</script>
+
