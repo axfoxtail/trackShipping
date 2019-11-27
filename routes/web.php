@@ -127,3 +127,41 @@ Route::get('/tracking', function () {
 Route::get('/quote', function () {
     return view('quote.index');
 });
+
+
+
+
+/******************************************************************
+ * 
+ *  ==================== Admin Panel APIs =======================
+ * 
+ * ***************************************************************/
+
+ Route::group(['prefix' => 'admin'], function() {
+    Route::get('/', 'AdminController@index');
+    
+    // Admin Login Module
+    Route::get('/login', 'AdminController@login');
+    Route::post('/login', 'AdminController@login');
+    
+    // Dashboard Management Module
+    Route::get('/dashboard', 'AdminController@index');
+    
+    // User Management Module
+    Route::get('/users/business', 'AdminController@businessUsers');
+    Route::get('/users/customers', 'AdminController@customers');
+    Route::get('/users/edit/{id}', 'AdminController@editUser');
+    Route::put('/users/update/{id}', 'AdminController@updateUser');
+    Route::delete('/users/delete/{id}', 'AdminController@deleteUser');
+    
+    // Mail Mangement Module
+    Route::get('/mails/contact', 'AdminController@contactMails');
+    Route::get('/mails/ticket', 'AdminController@ticketMails');
+    Route::post('/mails/reply', 'AdminController@reply');
+    
+    // Transaction Management Module
+    Route::get('/transactions', 'AdminController@transactions');
+    Route::post('/transactions/approve/{id}', 'AdminController@approveTransaction');
+    Route::get('/transactions/edit/{id}', 'AdminController@editTransaction');
+    Route::put('/transactions/update/{id}', 'AdminController@updateTransaction');
+});

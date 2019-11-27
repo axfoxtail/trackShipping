@@ -8,7 +8,7 @@
 
         <div class="header-logo-container ">
 
-          <div class="logo-container"> <h4> <a href="home" class="logo" rel="home" title="Home"> Proceed Shipping Limited </a> </h4> </div>
+          <div class="logo-container"> <h4> <a href="{{url('home')}}" class="logo" rel="home" title="Home"> Proceed Shipping Limited </a> </h4> </div>
 
         </div>
 
@@ -20,27 +20,27 @@
 
             <ul class="sf-menu clearfix">
 
-              <li ispage="homepage"><a href="home">Home</a></li>
+              <li ispage="homepage"><a href="{{url('home')}}">Home</a></li>
 
-              <li ispage="aboutpage"><a href="services">Features</a>
+              <li ispage="aboutpage"><a href="{{url('services')}}">Features</a>
 
                 <ul>
 
-                  <li><a href="about_us">About Us</a></li>
+                  <li><a href="{{url('about_us')}}">About Us</a></li>
 
-                  <li> <a href="services">Services</a>
+                  <li> <a href="{{url('services')}}">Services</a>
 
                     <ul>
 
-                      <li><a href="onlineshop_transport">Online Shop & Ship</a></li>
+                      <li><a href="{{url('onlineshop_transport')}}">Online Shop & Ship</a></li>
 
-                      <li><a href="cars_transport">Car Shipping</a></li>
+                      <li><a href="{{url('cars_transport')}}">Car Shipping</a></li>
 
-                      <li><a href="motorcycle_transport">Motorcycle Shipping</a></li>
+                      <li><a href="{{url('motorcycle_transport')}}">Motorcycle Shipping</a></li>
 
-                      <li><a href="boats_transport">Boat Shipping</a></li>
+                      <li><a href="{{url('boats_transport')}}">Boat Shipping</a></li>
 
-                      <li><a href="moving_transport">Moving Services</a></li>
+                      <li><a href="{{url('moving_transport')}}">Moving Services</a></li>
 
                     </ul>
 
@@ -52,15 +52,15 @@
 
               </li>
 
-              <li ispage="whatpage"><a href="what_to_expect">What To Expect</a>
+              <li ispage="whatpage"><a href="{{url('what_to_expect')}}">What To Expect</a>
 
-              <li ispage="howpage"><a href="how_it_works">How it works</a></li>
+              <li ispage="howpage"><a href="{{url('how_it_works')}}">How it works</a></li>
 
-              <li ispage="faqpage"><a href="faq">FAQs</a></li>
+              <li ispage="faqpage"><a href="{{url('faq')}}">FAQs</a></li>
 
-              <li ispage="registerpage"><a href="register">Sign up</a></li>
+              <li ispage="registerpage"><a href="{{url('register')}}">Sign up</a></li>
 
-              <li ispage="contactpage"><a href="contact">Contact</a></li>
+              <li ispage="contactpage"><a href="{{url('contact')}}">Contact</a></li>
 
             </ul>
 

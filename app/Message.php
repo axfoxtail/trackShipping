@@ -20,4 +20,8 @@ class Message extends Model
     ];
 
     public $timestamps= true;
+
+    public function users() {
+        return $this->belongsTo(User::class, 'user_id', 'id');
+    }
 }
