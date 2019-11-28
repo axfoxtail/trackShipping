@@ -14,14 +14,10 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                <h5 classTransactions"carde">Transactions Management</h5>
-                <div class="table-responsive">
-                        <table id="transaction
-                        s-table" class="table table-striped table-bordered">
-                            <thead> <div class="card-body">
-                <h5 class="card-Approve Ajax le">Transactions Management</h5>
-                <div class="table-responsive">
-
+                    <h5 class="card">Transactions Management</h5>
+                    <div class="table-responsive">
+                        <table id="transactions-table" class="table table-striped table-bordered">
+                            <thead>
                                 <tr>
                                     <th>id</th>
                                     <th>extra</th>

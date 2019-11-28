@@ -14,7 +14,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Business Accounts</h5>
+                    <h5 class="card-title">Ticket Message Inbox</h5>
                     <div class="table-responsive">
                         <table id="ticket-message" class="table table-striped table-bordered">
                             <thead>

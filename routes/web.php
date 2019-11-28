@@ -136,30 +136,29 @@ Route::get('/quote', function () {
  *  ==================== Admin Panel APIs =======================
  * 
  * ***************************************************************/
+// Admin Login Module
+Route::match(array('get', 'post'), '/admin/login', 'AdminController@login')->name('admin.login');
 
- Route::group(['prefix' => 'admin'], function() {
+ Route::group(['middleware' => 'is.admin', 'prefix' => 'admin'], function() {
     Route::get('/', 'AdminController@index')->name('admin');
-    
-    // Admin Login Module
-    Route::match(array('get', 'post'), '/login', 'AdminController@login');
     
     // Dashboard Management Module
     Route::get('/dashboard', 'AdminController@index');
     
     // User Management Module
-    Route::get('/users/business', 'AdminController@businessUsers');
-    Route::get('/users/customers', 'AdminController@customers');
+    Route::get('/users/business', 'AdminController@businessUsers')->name('admin.business');
+    Route::get('/users/customers', 'AdminController@customers')->name('admin.customers');
     Route::get('/users/edit/{id}', 'AdminController@editUser');
     Route::put('/users/update/{id}', 'AdminController@updateUser');
     Route::delete('/users/delete/{id}', 'AdminController@deleteUser');
     
     // Mail Mangement Module
-    Route::get('/mails/contact', 'AdminController@contactMails');
-    Route::get('/mails/ticket', 'AdminController@ticketMails');
+    Route::get('/mails/contact', 'AdminController@contactMails')->name('admin.contact');
+    Route::get('/mails/ticket', 'AdminController@ticketMails')->name('admin.ticket');
     Route::post('/mails/reply', 'AdminController@reply');
     
     // Transaction Management Module
-    Route::get('/transactions', 'AdminController@transactions');
+    Route::get('/transactions', 'AdminController@transactions')->name('admin.transaction');
     Route::post('/transactions/approve/{id}', 'AdminController@approveTransaction');
     Route::get('/transactions/edit/{id}', 'AdminController@editTransaction');
     Route::put('/transactions/update/{id}', 'AdminController@updateTransaction');

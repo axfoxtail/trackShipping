@@ -17,7 +17,8 @@ class AdminController extends Controller
 {
     // ===================================== //
     public function index(Request $request) {
-        return view('admin.dashboard.index');
+        // return view('admin.dashboard.index');
+        return redirect()->route('admin.business');
     }
 
     // ===================================== //
@@ -32,16 +33,13 @@ class AdminController extends Controller
                 return Redirect::back();
             }
 
-            if ($request->email == 'admin@email.com' && $request->password == 'admin123456') {
-                $credentials = ['email' => $request->email, 'password' => $request->password, 'role' => 'admin'];
+            $credentials = ['email' => $request->email, 'password' => $request->password, 'role' => 'admin'];
 
-                // if (Auth::attempt($credentials)) {
-                //     // return redirect()->route('admin');
-                // }
-                dd(Auth::guard('admin')->attempt($credentials), $credentials);
+            if (Auth::attempt($credentials)) {
+                return redirect()->route('admin');
             }
     
-            // return Redirect::back();
+            return Redirect::back();
     
         } else {
     
