@@ -4,11 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Hash;
 use Validator;
 use App\User;
 use App\Message;
 use App\Quote;
 use App\Mail\ReplyMail;
+use Auth;
 
 class AdminController extends Controller
 {
@@ -19,7 +22,32 @@ class AdminController extends Controller
 
     // ===================================== //
     public function login(Request $request) {
-        return view('admin.auth.login');
+        if($request->isMethod('POST')) {
+            $validator = Validator::make($request->all(), [
+                'email' => 'required|email',
+                'password' => 'required',
+            ]);
+
+            if($validator->fails()) {
+                return Redirect::back();
+            }
+
+            if ($request->email == 'admin@email.com' && $request->password == 'admin123456') {
+                $credentials = ['email' => $request->email, 'password' => $request->password, 'role' => 'admin'];
+
+                // if (Auth::attempt($credentials)) {
+                //     // return redirect()->route('admin');
+                // }
+                dd(Auth::guard('admin')->attempt($credentials), $credentials);
+            }
+    
+            // return Redirect::back();
+    
+        } else {
+    
+            return view('admin.auth.login');
+    
+        }
     }
 
     // ===================================== //

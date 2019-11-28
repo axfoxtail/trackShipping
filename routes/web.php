@@ -138,11 +138,10 @@ Route::get('/quote', function () {
  * ***************************************************************/
 
  Route::group(['prefix' => 'admin'], function() {
-    Route::get('/', 'AdminController@index');
+    Route::get('/', 'AdminController@index')->name('admin');
     
     // Admin Login Module
-    Route::get('/login', 'AdminController@login');
-    Route::post('/login', 'AdminController@login');
+    Route::match(array('get', 'post'), '/login', 'AdminController@login');
     
     // Dashboard Management Module
     Route::get('/dashboard', 'AdminController@index');
