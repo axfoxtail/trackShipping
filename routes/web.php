@@ -116,9 +116,7 @@ Route::get('/start_transaction', function () {
 //     return view('gethelp.index');
 // });
 
-Route::get('/tracking', function () {
-    return view('tracking.index');
-});
+Route::get('/tracking', 'TrackingController@index');
 
 // Route::get('/view_transaction', function () {
 //     return view('view_transaction.index');

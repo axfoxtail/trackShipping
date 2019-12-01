@@ -16,11 +16,14 @@
 
                     <div class="nl-form-container">
 
-                        <form class="newsletterform" method="get" action="tracking.php" id="trackin-form">
+                        <form class="newsletterform" method="get" action="{{url('/tracking')}}" id="trackin-form">
 
                             <a name="entertrackingnumber"></a>
 
-                            <input type="text" placeholder="Enter Your Tracking Number..." name="tr" id="tr"><button class="nl-button">TRACK</button>
+                            <input type="text" placeholder="Enter Your Tracking Number..." name="tr" id="tr">
+                            <button id="trackin-form"  type="submit" class="nl-button">TRACK</button>
+
+                         
 
                         </form>
 

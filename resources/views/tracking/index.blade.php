@@ -26,18 +26,37 @@
     <!-- CONTACT FORM-->
     <div class="container clearfix">
 
-        <!-- LEFT PANNEL -->
+        @if($error == true)          
+    
+        <!-- Guest PANNEL -->
         <div class="ten columns m-bot-35">
-        
-            
+                
             <div class="caption-container-main m-bot-30">
-                <div class="caption-text-container"><b>PR15724648873UN</b> - Shipment Details</div>
+                <div class="caption-text-container"><b>{{$tracking_number}}</b> - Shipment Details</div>
                 <div class="content-container-white caption-bg"></div>
             </div>
             
             <p class="m-bot-20">You can view shipment details, including package information, shipping charges, shipment status and location.</p>
             
+            <div class="styled-box iconed-box notice">{{$message}}</div>
+            </div>
                     
+        </div>
+        <!-- END LEFT PANNEL -->
+
+        @else
+
+        <!-- LEFT PANNEL -->
+        <div class="ten columns m-bot-35">
+        
+            
+            <div class="caption-container-main m-bot-30">
+                <div class="caption-text-container"><b>{{$tracking_number}}</b> - Shipment Details</div>
+                <div class="content-container-white caption-bg"></div>
+            </div>
+            
+            <p class="m-bot-20">You can view shipment details, including package information, shipping charges, shipment status and location.</p>
+            
             <div class="five columns m-bot-35" style="margin-left:0">
                 <div class="caption-container-main m-bot-30">
                     <div class="caption-text-container"><b>Sender</b> Details</div>
@@ -47,19 +66,23 @@
                 <table width="100%" class="trackingtable">
                     <tr>
                         <td>Full Name:</td>
-                        <td><b>Paul James Brighouse</b></td>
+                        <td><b>{{$sender->fname}} </b> <b>{{$sender->lname}}</b></td>
                     </tr>	
                     <tr>
                         <td>E-mail:</td>
-                        <td><b>brighousepj1964@gmail.com</b></td>
+                        <td><b>{{$sender->email}}</b></td>
                     </tr>
                     <tr>
                         <td>Mailing address:</td>
-                        <td><b>7245 2nd Ave Sw Seattle, Wa, 98108, United States</b></td>
+                        <td><b>{{$sender->address}}</b>     <b>{{$sender->city}}</b>   <b>{{$sender->postcode}}</b>  <b>{{$sender->country}}</b></td>
                     </tr>	
                 </table>
+
+               
+
+               
             </div>
-            
+
             <div class="five columns m-bot-35"  style="margin-right:0">
                 <div class="caption-container-main m-bot-30">
                     <div class="caption-text-container"><b>Shipment</b> Details</div>
@@ -69,69 +92,58 @@
                 <table width="100%" class="trackingtable">
                     <tr>
                         <td>Content:</td>
-                        <td><b>1967 Porsche 912 Karmann Coupe</b></td>
+                        <td><b><b>{{$transaction->extra}}</b></b></td>
                     </tr>	
                     <tr>
                         <td>Value:</td>
-                        <td><b>11.700,00 USD</b></td>
+                        <td><b>{{$transaction->price}} USD</b></td>
                     </tr>	
                     <tr>
                         <td>Weight:</td>
-                        <td><b>2200 Lbs</b></td>
+                        <td><b>{{$transaction->weight}} Lbs</b></td>
                     </tr>	
                     <tr>
                         <td>Origin:</td>
-                        <td><b>7245 2nd Ave Sw, Seattle, Wa, 98108, United States</b></td>
+                        <td><b>{{$faddress->address}}</b> <b>{{$faddress->city}}</b> <b>{{$faddress->postcode}}</b> <b>{{$faddress->country}}</b></td>
                     </tr>	
+
                     <tr>
                         <td>Destination:</td>
-                        <td><b>30838 Prairie Smoke Cir, Murrieta, Ca, 92563, United States</b></td>
+                        <td><b>{{$taddress->address}}</b> <b>{{$taddress->city}}</b> <b>{{$taddress->postcode}}</b> <b>{{$taddress->country}}</b></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Visual vehicle inspection:</td>
+                        <td><b>{{$sender->visualcheck}}</b></td>
+                    </tr>
+                    <tr>
+                        <td>All documents of the car:</td>
+                        <td><b>{{$sender->doccheck}}</b></td>
+                    </tr>
+                    <tr>
+                        <td>General car inspection:</td>
+                        <td><b>{{$sender->generalcheck}}</b></td>
+                    </tr>
+                    <tr>
+                        <td>Class:</td>
+                        <td><b>{{$sender->class}}</b></td>
+                    </tr>
+                    <tr>
+                        <td>Reception date:</td>
+                        <td><b>{{$transaction->created_at}}</b></td>
+                    </tr>
+                    <tr>
+                        <td>Estimated delivery time:</td>
+                        <td><b>{{$transaction->date}}</b></td>
                     </tr>	
                 </table>			
 
             </div>
             
-            <div class="row">
-                <table width="100%">
-                    <tr class="dark-grey-bg">
-                        <td width="40px"><h3 class="title-block">ID#</h3></td>
-                        <td><h3 class="title-block">Date</h3></td>
-                        <td><h3 class="title-block">Subject</h3></td>
-                        <td><h3 class="title-block">Status</h3></td>
-                    </tr>
-                    
-                            <tr class="trborder">
-                                <td>
-                                    <p style="text-align: center"><b>1</b></p>
-                                </td>
-                                <td>
-                                    <p style="text-align: center"><b>Wed 30 October</b></p>
-                                </td>
-                                <td>
-                                    <p>Seattle, Wa, United States</p>
-                                </td>
-                                <td>
-                                    <p>Preparation In Progress</p>
-                                </td>
-                            </tr>
-                            <tr class="trborder">
-                                <td>
-                                    <p style="text-align: center"><b>2</b></p>
-                                </td>
-                                <td>
-                                    <p style="text-align: center"><b>Wed 30 October</b></p>
-                                </td>
-                                <td>
-                                    <p>West Bromwich, United Kingdom</p>
-                                </td>
-                                <td>
-                                    <p>Awaiting Payment</p>
-                                </td>
-                            </tr>			</table>			
-            </div>
+           
             
                         
-                </div>
+            </div>
         <!-- END LEFT PANNEL -->
             
         <!-- SIDEBAR -->
@@ -145,19 +157,19 @@
                 <table width="100%" class="trackingtable">
                     <tr>
                         <td>Full Name:</td>
-                        <td><b>Stephan Korn</b></td>
+                        <td><b>{{Auth::user()->fname}}</b> <b>{{Auth::user()->lname}}</b></td>
                     </tr>	
                     <tr>
                         <td>E-mail:</td>
-                        <td><b>stephankorn8@gmail.com</b></td>
+                        <td><b>{{Auth::user()->email}}</b></td>
                     </tr>	
                     <tr>
                         <td>Phone number:</td>
-                        <td><b>9 806 990 298</b></td>
+                        <td><b>{{Auth::user()->phone}}</b></td>
                     </tr>
                     <tr>
                         <td style="min-width: 95px">Mailing address:</td>
-                        <td><b>30838 Prairie Smoke Cir Murrieta, Ca, 92563, United States</b></td>
+                        <td><b>{{Auth::user()->address}}</b>     <b>{{Auth::user()->city}}</b>   <b>{{Auth::user()->postcode}}</b>  <b>{{Auth::user()->country}}</b></td>
                     </tr>	
                 </table>
             </div>
@@ -203,119 +215,39 @@
                     <td><b>40-46-13</b></td>
                 </tr>	
             </table>
+
+             <!-- Trigger/Open The Modal -->
+             <button id="myBtn" class="nl-button" style="padding: 10"> Route map</button>
                                 
             </div>
-                </div>
-            <!-- END SIDEBAR -->
-        
+        </div>
+        <!-- END SIDEBAR -->
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <img src="{{$transaction->mapurl }}" alt="client"> 
+            </div>
+
+        </div>
+
+            
+
+
+            
+        @endif
+    
     </div>	
 
-<!-- LATEST WORK -->
-	<div class="container clearfix m-top-30">
-	
-		<div class="four columns carousel-intro m-bot-33">
-			<div class="caption-container m-bot-20">
-				<div class="title-block-text"> SAFE<br>	RELIABLE<br> <strong>DEPENDABLE</strong> </div>
-				<div class="carousel-navi jcarousel-scroll">
-					<div class="jcarousel-prev"></div>
-					<div class="jcarousel-next"></div>
-				</div>
-			</div>
-		</div>
+    
 
-		
-		<!-- jCAROUSEL -->
-		<div class="jcarousel latest-work-jc m-bot-30" >
-			<ul class="clearfix">
-				<!-- LATEST WORK ITEM -->
-				<li class="four columns">
-					<div class=" hover-item">
-						<div class="view view-first"> <img src="{{url('assets/images/content/port-2-13.jpg')}}" alt="Ipsum" >
-							<div class="mask"></div>
-							<div class="abs"> <a></a><a href="onlineshop-transport.php" class="link info"></a> </div>
-						</div>
-						<div class="lw-item-caption-container"> <a class="a-invert" href="onlineshop-transport.php" >
-							<div class="item-title-main-container clearfix">
-								<div class="item-title-text-container"> <span class="bold">ONLINE</span> SHOP AND SHIP </div>
-							</div>
-							</a>
-							<div class="item-caption">Online shopping and shipping services</div>
-						</div>
-					</div>
-				</li>
-				
-				<!-- LATEST WORK ITEM -->
-				<li class="four columns">
-					<div class="hover-item">
-						<div class="view view-first"> <img src="{{url('assets/images/content/port-2-14.jpg')}}" alt="Ipsum" >
-							<div class="mask"></div>
-							<div class="abs"> <a href="{{url('assets/images/content/port-2-14.jpg')}}"></a><a href="cars-transport.php" class="link info"></a> </div>
-						</div>
-						<div class="lw-item-caption-container"> <a class="a-invert" href="cars-transport.php" >
-							<div class="item-title-main-container clearfix">
-								<div class="item-title-text-container"> <span class="bold">CAR</span> SHIPPING </div>
-							</div>
-							</a>
-							<div class="item-caption">Honesty - Integrity &amp; value for money</div>
-						</div>
-					</div>
-				</li>
-				
-				<!-- LATEST WORK ITEM -->
-				<li class="four columns">
-					<div class=" hover-item">
-						<div class="view view-first"> <img src="{{url('assets/images/content/port-2-12.jpg')}}" alt="Ipsum" >
-							<div class="mask"></div>
-							<div class="abs"> <a href="{{url('assets/images/content/port-2-12.jpg')}}"></a><a href="motorcycle-shipping.php" class="link info"></a> </div>
-						</div>
-						<div class="lw-item-caption-container"> <a class="a-invert" href="motorcycle-shipping.php" >
-							<div class="item-title-main-container clearfix">
-								<div class="item-title-text-container"> <span class="bold">MOTORCYCLE</span> SHIPPING </div>
-							</div>
-							</a>
-							<div class="item-caption">We are motorcycle transport experts</div>
-						</div>
-					</div>
-				</li>
-				
-				<!-- LATEST WORK ITEM -->
-				<li class="four columns">
-					<div class=" hover-item">
-						<div class="view view-first"> <img src="{{url('assets/images/content/port-2-11.jpg')}}" alt="Ipsum" >
-							<div class="mask"></div>
-							<div class="abs"> <a href="{{url('assets/images/content/port-2-11.jpg')}}"></a><a href="boat-shipping.php" class="link info"></a> </div>
-						</div>
-						<div class="lw-item-caption-container"> <a class="a-invert" href="boat-shipping.php" >
-							<div class="item-title-main-container clearfix">
-								<div class="item-title-text-container"> <span class="bold">BOAT</span> SHIPPING </div>
-							</div>
-							</a>
-							<div class="item-caption">Boats, Yachts and watercraft of all shapes and sizes</div>
-						</div>
-					</div>
-				</li>
-				
-				<!-- LATEST WORK ITEM -->
-				<li class="four columns">
-					<div class=" hover-item">
-						<div class="view view-first"> <img src="{{url('assets/images/content/port-2-10.jpg')}}" alt="Ipsum" >
-							<div class="mask"></div>
-							<div class="abs"> <a href="{{url('assets/images/content/port-2-10.jpg" class="lightbox zoom info"></a><a href="portfolio-single.html" class="link info"></a> </div>
-						</div>
-						<div class="lw-item-caption-container"> <a class="a-invert" href="portfolio-single.html" >
-							<div class="item-title-main-container clearfix">
-								<div class="item-title-text-container"> <span class="bold">MOVING</span> HOUSEHOLD GOODS </div>
-							</div>
-							</a>
-							<div class="item-caption">Moving over 10,000 shipments yearly</div>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<!-- jCAROUSEL End -->
-	</div>	
-<!-- OUR PROJECTS End -->
+    
+
+
 	
 	
 
@@ -362,60 +294,88 @@
 			<select style="display: none" id="end"><option value="West Bromwich, United Kingdom" selected></option></select>
 <!--<input type="hidden" id="end" value="Murrieta, Ca, United States">
 -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCa8o9D8EXtYoRapl0na82_pDKndC3jx9s"></script> -->
 
 <script type="text/javascript">
 $(document).ready(function() {
 	initialize();
-	
-	function initialize() {
+                
+	// function initialize() {
 		
-		var directionDisplay;
-		var directionsService = new google.maps.DirectionsService();
-		var map;
+	// 	var directionDisplay;
+	// 	var directionsService = new google.maps.DirectionsService();
+	// 	var map;
 
-		directionsDisplay = new google.maps.DirectionsRenderer();
+	// 	directionsDisplay = new google.maps.DirectionsRenderer();
 		
-		var myOptions = {
-			scrollwheel: false,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-		}
+	// 	var myOptions = {
+	// 		scrollwheel: false,
+	// 		mapTypeId: google.maps.MapTypeId.ROADMAP,
+	// 	}
 		
-		var start = document.getElementById("start").value;
-		var end = document.getElementById("end").value;
+	// 	var start = document.getElementById("start").value;
+	// 	var end = document.getElementById("end").value;
 			
-		var waypoints = [];
-		var checkboxArray = document.getElementById('waypoints');
-		//var checkboxArray = $('#waypoints').val();
+	// 	var waypoints = [];
+	// 	var checkboxArray = document.getElementById('waypoints');
+	// 	//var checkboxArray = $('#waypoints').val();
 		
-		for (var i = 0; i < checkboxArray.length; i++) {
-			if (checkboxArray.options[i].selected == true) {
-				waypoints.push({
-					location:checkboxArray[i].value,
-					stopover:true
-				});
-			}
-		}
+	// 	for (var i = 0; i < checkboxArray.length; i++) {
+	// 		if (checkboxArray.options[i].selected == true) {
+	// 			waypoints.push({
+	// 				location:checkboxArray[i].value,
+	// 				stopover:true
+	// 			});
+	// 		}
+	// 	}
 			
-		var request = {
-			origin:start, 
-			destination:end,
-			waypoints:waypoints, //an array of waypoints
-			optimizeWaypoints: false, //set to true if you want google to determine the shortest route or false to use the order specified.
-			travelMode: google.maps.DirectionsTravelMode.DRIVING
-		};
+	// 	var request = {
+	// 		origin:start, 
+	// 		destination:end,
+	// 		waypoints:waypoints, //an array of waypoints
+	// 		optimizeWaypoints: false, //set to true if you want google to determine the shortest route or false to use the order specified.
+	// 		travelMode: google.maps.DirectionsTravelMode.DRIVING
+	// 	};
 		
-		directionsService.route(request, function(response, status) {
-			if (status == google.maps.DirectionsStatus.OK) {
-				directionsDisplay.setDirections(response);
-			}
-		});	
+	// 	directionsService.route(request, function(response, status) {
+	// 		if (status == google.maps.DirectionsStatus.OK) {
+	// 			directionsDisplay.setDirections(response);
+	// 		}
+	// 	});	
 	
-		map = new google.maps.Map(document.getElementById("googlemaps"), myOptions);
-		directionsDisplay.setMap(map);
-	}
+	// 	map = new google.maps.Map(document.getElementById("googlemaps"), myOptions);
+	// 	directionsDisplay.setMap(map);
+	// }
 	
 });
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 </script>
 
 @stop
