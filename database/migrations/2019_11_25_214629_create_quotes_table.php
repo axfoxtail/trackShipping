@@ -36,6 +36,9 @@ class CreateQuotesTable extends Migration
             $table->string('price')->nullable();
             $table->string('status');
             $table->string('trackingnumber')->nullable();
+            $table->string('mapurl')->nullable();
+            $table->string('senderid')->nullable();
+            
 
 
             $table->timestamps();
