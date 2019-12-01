@@ -100,11 +100,11 @@
 
       <!-- JS begin --> 
 
-      <script type="text/javascript" src="{{ ('assets/js/jquery-1.8.3.min.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/jquery-1.8.3.min.js') }}"></script> 
 
-      <script type="text/javascript" src="{{ ('assets/js/jquery.easing.1.3.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/jquery.easing.1.3.js') }}"></script> 
 
-      <script type="text/javascript" src="{{ ('assets/js/superfish.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/superfish.js') }}"></script> 
 
       <script type="text/javascript" src="{{ ('assets/js/jquery-ui.min.js') }}"></script>
 
@@ -112,37 +112,37 @@
 
       <!-- Flex Slider  --> 
 
-      <script src="{{ ('assets/js/jquery.flexslider.js') }} "></script> 
+      <script src="{{ ('assets/js/jquery.flexslider.js') }}"></script> 
 
-      <script src="{{ ('assets/js/flex-slider.js') }} "></script> 
+      <script src="{{ ('assets/js/flex-slider.js') }}"></script> 
 
       <!-- end Flex Slider -->
 
 
 
-      <script type="text/javascript" src="{{ ('assets/js/jquery.jcarousel.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/jquery.jcarousel.js') }}"></script> 
 
-      <script type="text/javascript" src="{{ ('assets/js/jquery.fancybox-1.3.4.pack.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/jquery.fancybox-1.3.4.pack.js') }}"></script> 
 
-      <script type="text/javascript" src="{{ ('assets/js/jQuery.BlackAndWhite.min.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/jQuery.BlackAndWhite.min.js') }}"></script> 
 
-      <script type="text/javascript" src="{{ ('assets/js/jquery.validate.min.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/jquery.validate.min.js') }}"></script> 
 
       <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.js"></script>
 
 
 
-      <script type="text/javascript" src="{{ ('assets/js/jquery.quicksand.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/jquery.quicksand.js') }}"></script> 
 
-      <script type="text/javascript" src="{{ ('assets/js/main.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/main.js') }}"></script> 
 
-      <script type="text/javascript" src="{{ ('assets/js/jquery-cookie.js') }} "></script> 
+      <script type="text/javascript" src="{{ ('assets/js/jquery-cookie.js') }}"></script> 
 
       <!-- Google Translate -->
 
       <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-      <script src="{{ ('assets/js/styleswitcher.js') }} "></script> 
+      <script src="{{ ('assets/js/styleswitcher.js') }}"></script> 
 
 
 
