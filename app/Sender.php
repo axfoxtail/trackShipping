@@ -15,4 +15,8 @@ class Sender extends Model
     ];
 
     public $timestamps= true;
+    
+    public function quotes() {
+        return $this->belongsTo(Quote::class, 'senderid', 'id');
+    }
 }

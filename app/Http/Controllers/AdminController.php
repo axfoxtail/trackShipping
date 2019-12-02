@@ -6,10 +6,12 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Storage;
 use Validator;
 use App\User;
 use App\Message;
 use App\Quote;
+use App\Sender;
 use App\Mail\ReplyMail;
 use Auth;
 
@@ -149,7 +151,7 @@ class AdminController extends Controller
 
     // ===================================== //
     public function transactions(Request $request) {
-        $transactions = Quote::all();
+        $transactions = Quote::with('senders')->get();
 
         return view('admin.transactions.index', ['transactions' => $transactions]);
     }
@@ -157,23 +159,63 @@ class AdminController extends Controller
     public function approveTransaction(Request $request, $id) {
         $validator = Validator::make($request->all(), [
             'price' => 'required',
+            'fname' => 'required',
+            'lname' => 'required',
+            'gender' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'zip' => 'required',
+            'address' => 'required',
+            'city' => 'required',
+            'country' => 'required',
+            'visualcheck' => 'required',
+            'doccheck' => 'required',
+            'generalcheck' => 'required',
+            'class' => 'required',
+            'paymentstatus' => 'required',
         ]);
-
+        
         if($validator->fails()) {
             return response()->json(['status' => false, 'message' => 'Required Shipping Price.'], 200);
         }
 
+        // sender info
+        $sender = new Sender();
+        $sender->fname = $request->fname;
+        $sender->lname = $request->lname;
+        $sender->gender = $request->gender;
+        $sender->email = $request->email;
+        $sender->phone = $request->phone;
+        $sender->postcode = $request->zip;
+        $sender->address = $request->address;
+        $sender->city = $request->city;
+        $sender->country = $request->country;
+        $sender->visualcheck = $request->visualcheck;
+        $sender->doccheck = $request->doccheck;
+        $sender->generalcheck = $request->generalcheck;
+        $sender->class = $request->class;
+        $sender->paymentstatus = $request->paymentstatus;
+        $sender->save();
+
+        // quote update info
         $transaction = Quote::find($id);
+        // map image info
+        $map_images = 'public/maps-image/' . $id;
+        if ($request->file('mapurl') && $transaction->mapurl && Storage::exists($map_images . '/' . basename($transaction->mapurl))) {
+            Storage::delete($map_images . '/' . basename($transaction->mapurl));
+        }
         $transaction->price = $request->price;
         $transaction->status = 'approved';
         $transaction->trackingnumber = $this->generateTrackingNumber();
+        $transaction->senderid = $sender->id;
+        $transaction->mapurl = $request->file('mapurl') ? Storage::url($request->file('mapurl')->store($map_images)) : $transaction->mapurl;
         $transaction->save();
 
         return response()->json(['status' => true, 'message' => 'Successfully Approved.'], 200);
     }
 
     private function generateTrackingNumber() {
-        $number = mt_rand(1000000000, 9999999999); // better than rand()
+        $number = 'TCL' . mt_rand(100000, 999999); // better than rand()
     
         // call the same function if the barcode exists already
         if ($this->TrackingNumberExists($number)) {
@@ -188,6 +230,11 @@ class AdminController extends Controller
         // query the database and return a boolean
         // for instance, it might look like this in Laravel
         return Quote::where('trackingnumber', $number)->exists();
+    }
+
+    public function sender(Request $request, $id) {
+        $sender = Sender::find($id);
+        return response()->json(['status' => true, 'message' => 'Successfully Fetched Data', 'data' => $sender], 200);
     }
 
     public function editTransaction(Request $request, $id) {

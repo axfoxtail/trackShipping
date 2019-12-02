@@ -20,4 +20,8 @@ class Quote extends Model
     ];
 
     public $timestamps= true;
+
+    public function senders() {
+        return $this->hasOne(Sender::class, 'id', 'senderid');
+    }
 }

@@ -158,6 +158,27 @@ Route::match(array('get', 'post'), '/admin/login', 'AdminController@login')->nam
     // Transaction Management Module
     Route::get('/transactions', 'AdminController@transactions')->name('admin.transaction');
     Route::post('/transactions/approve/{id}', 'AdminController@approveTransaction');
+    Route::post('/transactions/sender/{id}', 'AdminController@sender');
     Route::get('/transactions/edit/{id}', 'AdminController@editTransaction');
     Route::put('/transactions/update/{id}', 'AdminController@updateTransaction');
+});
+
+
+// ============= Atisan CMD ============== //
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    // return what you want
+    return response()->json(['result' => $exitCode], 200);
+});
+
+Route::get('/clear-config', function() {
+    $exitCode = Artisan::call('config:clear');
+    // return what you want
+    return response()->json(['result' => $exitCode], 200);
+});
+
+Route::get('/storage-link', function() {
+    $exitCode = Artisan::call('storage:link');
+    // return what you want
+    return response()->json(['result' => $exitCode], 200);
 });
