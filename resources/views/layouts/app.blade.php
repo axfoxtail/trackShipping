@@ -72,11 +72,11 @@
 
       <div class="topnav">
 
-	      <form method="get" action="tracking.php" class="trackWrapper">
+	      <form method="get" action="{{url('/tracking')}}" id="trackin-form" class="trackWrapper">
 
 		      <input type="text" placeholder="Enter your tracking number..." name="tr" id="tracking">
 
-	      	<button type="submit" class="button medium r-m-plus r-m-full"><b>TRACK</b></button>
+	      	<button id="trackin-form" type="submit" class="button medium r-m-plus r-m-full"><b>TRACK</b></button>
 
 	      </form>
 

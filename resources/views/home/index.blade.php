@@ -177,7 +177,7 @@
 
                     <div class="block-1-content-container">
 
-                        <a class=" clearfix" href="index#entertrackingnumber">
+                        <a class=" clearfix" href="#entertrackingnumber">
 
                             <div class="ca-icon"> <img src="{{ url('assets/images/icon-tracking_big.png')}}" alt="icon-tracking"> </div>
 
@@ -255,7 +255,7 @@
 
                     <div class="block-1-content-container">
 
-                        <a class=" clearfix" href="testimonials">
+                        <a class=" clearfix" href="home">
 
                             <div class="ca-icon"> <img src="{{ url('assets/images/icon-comp.png')}}" alt="icon-comp"> </div>
 

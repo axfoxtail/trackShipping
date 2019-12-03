@@ -14,11 +14,11 @@
     <article class="box-icon clearfix">
         <a href="transactions">
             <i class="icon-truck"></i>
-            <h3>Transactions <b class="newtrans">NEW</b></h3>
+            <h3>Transactions </h3>
         </a>
     </article>
     <article class="box-icon clearfix">
-        <a href="start_transaction">
+        <a href="quote">
             <i class="icon-dropbox"></i>
             <h3><b>START</b> Transaction</h3>
         </a>
