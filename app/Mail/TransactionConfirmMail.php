@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ReplyMail extends Mailable
+class TransactionConfirmMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -31,6 +31,6 @@ class ReplyMail extends Mailable
      */
     public function build()
     {
-        return $this->from("support@shipping.com", "Shipping")->view('emails.reply-email')->subject($this->data['subject']);
+        return $this->from("support@shipping.com", "Shipping")->view('emails.transaction-confirm-email')->subject($this->data['subject']);
     }
 }

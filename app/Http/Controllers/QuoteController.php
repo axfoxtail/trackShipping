@@ -8,6 +8,7 @@ use App\User;
 use Auth;
 use App\Address;
 use App\Quote;
+use App\Mail\TransactionConfirmMail;
 
 class QuoteController extends Controller
 {
@@ -73,6 +74,13 @@ class QuoteController extends Controller
         }
 
         $quote->save();
+
+        // send email to customer
+        $data['quote'] = Quote::with(['users', 'senders', 'fromAddress', 'toAddress'])->find($quote->id);
+        $data['email'] = 'supercoder017@gmail.com';
+        $data['subject'] = 'Confirm!';
+        // dd($data['quote']->users->email);
+        \Mail::to($data['email'])->send(new TransactionConfirmMail($data));
 
         return redirect()->back();
 

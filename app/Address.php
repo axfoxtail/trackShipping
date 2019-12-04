@@ -20,4 +20,12 @@ class Address extends Model
     ];
 
     public $timestamps= true;
+
+    public function quotesByFrom() {
+        return $this->belongsTo(Quote::class, 'from', 'id');
+    }
+
+    public function quotesByTo() {
+        return $this->belongsTo(Quote::class, 'to', 'id');
+    }
 }

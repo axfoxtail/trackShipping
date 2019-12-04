@@ -21,7 +21,19 @@ class Quote extends Model
 
     public $timestamps= true;
 
+    public function users() {
+        return $this->hasOne(User::class, 'id', 'user_id');
+    }
+
     public function senders() {
         return $this->hasOne(Sender::class, 'id', 'senderid');
+    }
+
+    public function fromAddress() {
+        return $this->hasOne(Address::class, 'id', 'from');
+    }
+
+    public function toAddress() {
+        return $this->hasOne(Address::class, 'id', 'to');
     }
 }
