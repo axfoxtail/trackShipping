@@ -100,11 +100,11 @@
                                     <th>last name</th>
                                     <th>email</th>
                                     <th>phone</th>
-                                    <th>package</th>
+                                    <!-- <th>package</th> -->
                                     <th>date</th>
-                                    <th>height</th>
+                                    <!-- <th>height</th>
                                     <th>width</th>
-                                    <th>weight</th>
+                                    <th>weight</th> -->
                                     <th>product</th>
                                     <th>created at</th>
                                     <th>sender</th>
