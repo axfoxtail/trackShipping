@@ -37,7 +37,7 @@ class TrackingController extends Controller
         if($transaction){
 
             $error = false;
-            $reciever_id = $transaction->user_id;
+            $receiver_id = $transaction->user_id;
             $sender_id = $transaction->senderid;
             $address_from = $transaction->from;
             $address_to = $transaction->to;
@@ -45,7 +45,7 @@ class TrackingController extends Controller
             
 
             $sender = Sender::where('id', '=', $sender_id)->first();
-            $reciever = Sender::where('id', '=', $reciever_id)->first();
+            $receiver = User::where('id', '=', $receiver_id)->first();
             
             $faddress = Address::where('id', '=', $address_from)->first();
             $taddress = Address::where('id', '=', $address_to)->first();
@@ -62,7 +62,7 @@ class TrackingController extends Controller
             'tracking_number' => $tracking_number, 
             'error' => $error, 
             'message' => $message, 
-            'reciever' => $reciever, 
+            'receiver' => $receiver, 
             'sender' => $sender, 
             'faddress' => $faddress, 
             'taddress' => $taddress,

@@ -7,13 +7,13 @@
 
 
 
-<title>Proceed Shipping Limited - Courier Services & Delivery Company</title>
+<title>ETA Worldwid - Courier Services & Delivery Company</title>
 
 
 
 <meta charset=utf-8 >
 
-<meta name="keywords" content="Proceed Shipping Limited, Courier Services & Delivery Company" >
+<meta name="keywords" content="ETA Worldwid, Courier Services & Delivery Company" >
 
 <meta name="description" content="Looking for a reliable international vehicle shipper?. We have helped customers transport their vehicles overseas safely since 2007.">
 
@@ -183,7 +183,7 @@
 
 						<div class="header-logo-container ">
 
-							<div class="logo-container"> <h4> <a href="index.php" class="logo" rel="home" title="Home"> Proceed Shipping Limited </a> </h4> </div>
+							<div class="logo-container"> <h4> <a href="index.php" class="logo" rel="home" title="Home"> ETA Worldwid </a> </h4> </div>
 
 						</div>
 
@@ -370,13 +370,13 @@
 
 				<div class="two-thirds column">
 
-					<h3 class="caption footer-block" style="text-transform:uppercase;">Why <b>Proceed Shipping Limited</b></h3>
+					<h3 class="caption footer-block" style="text-transform:uppercase;">Why <b>ETA Worldwid</b></h3>
 
 					<div class="footer-contact-info">
 
 						<p>&nbsp;</p>
 
-						<p class="title-font-14">Proceed Shipping Limited utilizes insured, secured and bonded facilities. NEW - We provide warehousing, packing, crating, trucking and loading services out of our new location in Seattle WA, US</p>
+						<p class="title-font-14">ETA Worldwid utilizes insured, secured and bonded facilities. NEW - We provide warehousing, packing, crating, trucking and loading services out of our new location in Seattle WA, US</p>
 
 						<p class="title-font-14">We own and operate additional cargo shipping companies in Spain & Ireland and more worldwide destinations are covered by our affiliated organization member companies.</p>
 						
@@ -436,7 +436,7 @@
 
 					</div>
 
-					<div class="footer-copyright-container right-text"> &copy; 2019 Proceed Shipping Limited Company No: 07223653. All Rights Reserved. </div>
+					<div class="footer-copyright-container right-text"> &copy; 2019 ETA Worldwid Company No: 07223653. All Rights Reserved. </div>
 
 				</div>
 

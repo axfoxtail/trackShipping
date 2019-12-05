@@ -33,7 +33,7 @@
                     <div class="content-container-white caption-bg "></div>
                 </div>
                 <p>Please provide information about your shipment to estimate the shipping cost.</p>
-                <p>Rates shown here may be different than the actual charges for your shipment. Differences may occur based on actual weight, dimensions, currency conversion rate and other factors. Consult the applicable Proceed Shipping Limited Service Guide for details.</p>
+                <p>Rates shown here may be different than the actual charges for your shipment. Differences may occur based on actual weight, dimensions, currency conversion rate and other factors. Consult the applicable ETA Worldwide Service Guide for details.</p>
             </div>
         </div>
         
@@ -103,21 +103,21 @@
                         </div>
                     </div>
                     <div class="row">
-                        <fieldset class="field-1-3 left">
-                            <span class="title-block">Packaging required:</span>
-                            <select name="packing" class="text m-bot-20">
-                                <option value="">--</option>
-                                <option value="yes">YES</option>
-                                <option value="no">NO</option>
-                            </select>
-                        </fieldset>
+                        <!--<fieldset class="field-1-3 left">-->
+                        <!--    <span class="title-block">Packaging required:</span>-->
+                        <!--    <select name="packing" class="text m-bot-20">-->
+                        <!--        <option value="">--</option>-->
+                        <!--        <option value="yes">YES</option>-->
+                        <!--        <option value="no">NO</option>-->
+                        <!--    </select>-->
+                        <!--</fieldset>-->
 
-                        <fieldset class="field-1-3 left smallinput">
-                            <label class="title-block">Size (inch):</label>
-                            <input type="text" name="length" id="length" placeholder="Length..." class="text m-bot-20">
-                            <input type="text" name="width" id="width" placeholder="Width..." class="text m-bot-20">
-                            <input type="text" name="height" id="height" placeholder="Height..." class="text m-bot-20">
-                        </fieldset>
+                        <!--<fieldset class="field-1-3 left smallinput">-->
+                        <!--    <label class="title-block">Size (inch):</label>-->
+                        <!--    <input type="text" name="length" id="length" placeholder="Length..." class="text m-bot-20">-->
+                        <!--    <input type="text" name="width" id="width" placeholder="Width..." class="text m-bot-20">-->
+                        <!--    <input type="text" name="height" id="height" placeholder="Height..." class="text m-bot-20">-->
+                        <!--</fieldset>-->
                         
                         <fieldset class="field-1-3 left">
                             <label class="title-block">Weight</label>
@@ -145,14 +145,14 @@
                     </div>
                     <div class="row">
                     
-                        <fieldset class="field-1-3">
-                            <span class="title-block">Gender:</span>
-                            <select name="gender" class="text m-bot-20">
-                                <option value="">--</option>
-                                <option value="mr">Mr.</option>
-                                <option value="ms">Ns.</option>
-                            </select>
-                        </fieldset>
+                        <!--<fieldset class="field-1-3">-->
+                        <!--    <span class="title-block">Gender:</span>-->
+                        <!--    <select name="gender" class="text m-bot-20">-->
+                        <!--        <option value="">--</option>-->
+                        <!--        <option value="mr">Mr.</option>-->
+                        <!--        <option value="ms">Ns.</option>-->
+                        <!--    </select>-->
+                        <!--</fieldset>-->
                         
                         <fieldset class="field-1-3">
                             <label class="title-block">First name</label>
@@ -177,7 +177,7 @@
                 </div>
                 
                 <div class="sixteen columns m-bot-35">* In compliance with <a target="_blank" href="cargo_securing_guidelines_en.pdf"><b>US</b> Cargo Securing Guidelines</a></b></div>
-                <div class="sixteen columns m-bot-35">The rate and transit time application only uses city name or zip/postal code to define transit time. Proceed Shipping Limited only displays the city or zip/postal codes served by FedEx in the destination and origin countries you selected.</div>
+                <div class="sixteen columns m-bot-35">The rate and transit time application only uses city name or zip/postal code to define transit time. ETA Worldwid only displays the city or zip/postal codes served by FedEx in the destination and origin countries you selected.</div>
                 <div class="sixteen columns m-bot-35">
                     <fieldset class="left m-t-min-1">
                         <input type="submit" name="quote-formsubmit" value="Get Your Quote" class="button large">

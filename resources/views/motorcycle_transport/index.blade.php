@@ -42,13 +42,13 @@
 
         <div class="row">
             <div class="sixteen columns">
-                <p> You can track the shipment of your motorcycle or ATV anytime with our convenient online tracking. All you need is your Proceed Shipping Limited <b>tracking number</b>.</p>
+                <p> You can track the shipment of your motorcycle or ATV anytime with our convenient online tracking. All you need is your ETA Worldwid <b>tracking number</b>.</p>
             </div>
         </div>
             
         <div class="row">
             <div class="nine columns">
-                <p>When you need to ship your motorcycle or ATV, it is important that you choose a carrier who shares your passion for these beautiful machines. Motorcycle and powersports enthusiasts are best served to enlist a motorcycle shipping company that understands the intricacies involved in the handling and movement of these types of vehicles. Proceed Shipping Limited understands, and we will manage your shipment the right way from start to finish.</p>
+                <p>When you need to ship your motorcycle or ATV, it is important that you choose a carrier who shares your passion for these beautiful machines. Motorcycle and powersports enthusiasts are best served to enlist a motorcycle shipping company that understands the intricacies involved in the handling and movement of these types of vehicles. ETA Worldwid understands, and we will manage your shipment the right way from start to finish.</p>
             </div>
             <div class="seven columns">
                 <ul class="styled-list style-1">
@@ -62,7 +62,7 @@
         
         <div class="row m-bot-35">
             <div class="sixteen columns">
-                <p>Our Proceed Shipping Limited Specialized Shipping division handles the movement of motorcycles longer than 106", motorcycles with sidecars, trikes, and UTVs. Proceed Shipping Limited can ship any vehicle, anywhere! Call today to get your custom quote.</p>
+                <p>Our ETA Worldwid Specialized Shipping division handles the movement of motorcycles longer than 106", motorcycles with sidecars, trikes, and UTVs. ETA Worldwid can ship any vehicle, anywhere! Call today to get your custom quote.</p>
             </div>
         </div>
 

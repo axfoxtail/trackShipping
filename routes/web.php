@@ -81,9 +81,9 @@ Route::get('/what_to_expect', function () {
     return view('what_to_expect.index');
 });
 
-Route::get('/transactions', function () {
-    return view('transactions.index');
-});
+// Route::get('/transactions', function () {
+//     return view('transactions.index');
+// });
 
 Route::get('/myaccount', function () {
     return view('myaccount.index');

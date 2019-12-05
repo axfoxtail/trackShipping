@@ -33,7 +33,7 @@
                     <div class="caption-text-container">Register Account</div>
                     <div class="content-container-white caption-bg "></div>
                 </div>
-                <p>Get access to the full array of Proceed Shipping Limited shipping, tracking and customs tools. Please enter registration information. All the fields are required.</p>
+                <p>Get access to the full array of ETA Worldwid shipping, tracking and customs tools. Please enter registration information. All the fields are required.</p>
 
             </div>
         </div>

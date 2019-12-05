@@ -30,8 +30,8 @@
                 <div class="caption-text-container">International <b>Moving Services</b> </div>
                 <div class="content-container-white caption-bg "></div>
             </div>
-            <p>We move your household goods and personal effects. Proceed Shipping Limited has been moving and relocating personal effects and household goods from US to all major cities since 1997.</p>
-            <blockquote>When moving home or relocating, whether it is for business or personal reasons, one of the biggest challenges is finding a trust worthy company who will take the stress and hassle out of the move for you! Here at Proceed Shipping Limited, our team of professional movers will make sure that the process of moving house will be simple and trouble free.</blockquote>
+            <p>We move your household goods and personal effects. ETA Worldwid has been moving and relocating personal effects and household goods from US to all major cities since 1997.</p>
+            <blockquote>When moving home or relocating, whether it is for business or personal reasons, one of the biggest challenges is finding a trust worthy company who will take the stress and hassle out of the move for you! Here at ETA Worldwid, our team of professional movers will make sure that the process of moving house will be simple and trouble free.</blockquote>
         </div>
         <div class="seven columns m-top-30">
             <div class="img-about"> <img class="" alt="about" src="{{url('assets/images/content/moveship.jpg')}}"> </div>
@@ -51,7 +51,7 @@
         
         <div class="row m-bot-35">
             <div class="five columns">
-                <p>Our Proceed Shipping Limited Global Services division is an International Freight Forwarder and NVOCC specializing in overseas car shipping for a complete range of vehicles, customs clearance filings, and international shipping services for specialized freight including heavy grade equipment, boats and air freight.</p>
+                <p>Our ETA Worldwid Global Services division is an International Freight Forwarder and NVOCC specializing in overseas car shipping for a complete range of vehicles, customs clearance filings, and international shipping services for specialized freight including heavy grade equipment, boats and air freight.</p>
             </div>
             <div class="eleven columns">
                 <ul class="styled-list style-1">

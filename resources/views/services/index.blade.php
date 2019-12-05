@@ -30,8 +30,8 @@
                 <div class="caption-text-container">What <b>We Ship</b> </div>
                 <div class="content-container-white caption-bg "></div>
             </div>
-            <p> There is a special bond between most cars and their owners. Whether your vehicle is the first car you ever bought, the tractor you need to get your work done, the boat you spent your summers in, or the RV taking you around the country, Proceed Shipping Limited understands this precious bond and does everything to protect it.</p>
-            <blockquote>Our expert associates at Proceed Shipping Limited understand that you might be nervous about the thought of putting such an expensive investment in the hands of someone else to protect.</blockquote>
+            <p> There is a special bond between most cars and their owners. Whether your vehicle is the first car you ever bought, the tractor you need to get your work done, the boat you spent your summers in, or the RV taking you around the country, ETA Worldwid understands this precious bond and does everything to protect it.</p>
+            <blockquote>Our expert associates at ETA Worldwid understand that you might be nervous about the thought of putting such an expensive investment in the hands of someone else to protect.</blockquote>
         </div>
         <div class="seven columns">
             <div class="img-about"> <img class="" alt="about" src="{{url('assets/images/content/services.jpg')}}"> </div>
@@ -42,14 +42,14 @@
 
         <div class="row">
             <div class="sixteen columns">
-                <p> Don't worry. Proceed Shipping Limited Auto Shippers has more than 15 years of time-tested experience, knowledge and capabilities to ship any vehicle. No matter what vehicle you are shipping or where you are shipping it, let the experts at Proceed Shipping Limited handle it.</p>
+                <p> Don't worry. ETA Worldwid Auto Shippers has more than 15 years of time-tested experience, knowledge and capabilities to ship any vehicle. No matter what vehicle you are shipping or where you are shipping it, let the experts at ETA Worldwid handle it.</p>
             </div>
         </div>
         
         <div class="row">
             <div class="sixteen columns">
                 <div class="caption-container-main m-t-min-1">
-                    <div class="caption-text-container">Proceed Shipping Limited <b>Vehicle and Auto Shipping</b> </div>
+                    <div class="caption-text-container">ETA Worldwid <b>Vehicle and Auto Shipping</b> </div>
                     <div class="content-container-white caption-bg "></div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
         
         <div class="row">
             <div class="nine columns">
-                <p> If you are <b>moving / selling / buying</b> a car or motorbike, Proceed Shipping Limited will be able to assist. Our experienced team will help you look at the various options available to you to meet your Car or Motorbike shipping requirements whilst remaining in line with international vehicle shipping regulations. We provide very competitive rates for both roll on roll off and containerised shipments for your vehicles. We can ship anywhere in the World. All motorbikes will either be moved on flat racks strapped and secured or be shipped in motorcycle crates.</p>
+                <p> If you are <b>moving / selling / buying</b> a car or motorbike, ETA Worldwid will be able to assist. Our experienced team will help you look at the various options available to you to meet your Car or Motorbike shipping requirements whilst remaining in line with international vehicle shipping regulations. We provide very competitive rates for both roll on roll off and containerised shipments for your vehicles. We can ship anywhere in the World. All motorbikes will either be moved on flat racks strapped and secured or be shipped in motorcycle crates.</p>
             </div>
             <div class="seven columns">
                 <ul class="styled-list style-1">
@@ -107,7 +107,7 @@
         
         <div class="row m-bot-35">
             <div class="eight columns">
-                <p> Proceed Shipping Limited vehicle transport service ships a large variety of car and vehicle types including:</p>
+                <p> ETA Worldwid vehicle transport service ships a large variety of car and vehicle types including:</p>
             </div>
             <div class="columns">
                 <ul class="styled-list style-1">

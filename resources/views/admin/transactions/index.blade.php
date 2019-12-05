@@ -26,16 +26,16 @@
                                     <th>tracking number</th>
                                     <th>from</th>
                                     <th>to</th>
-                                    <th>gender</th>
+                                    <!-- <th>gender</th> -->
                                     <th>first name</th>
                                     <th>last name</th>
                                     <th>email</th>
                                     <th>phone</th>
-                                    <th>package</th>
+                                    <!-- <th>package</th> -->
                                     <th>date</th>
-                                    <th>height</th>
+                                    <!-- <th>height</th>
                                     <th>width</th>
-                                    <th>weight</th>
+                                    <th>weight</th> -->
                                     <th>product</th>
                                     <th>created at</th>
                                     <th>sender</th>
@@ -58,16 +58,16 @@
                                     <td>{{ $transaction->trackingnumber }}</td>
                                     <td>{{ $transaction->from }}</td>
                                     <td>{{ $transaction->to }}</td>
-                                    <td>{{ $transaction->gender }}</td>
+                                    <!-- <td>{{ $transaction->gender }}</td> -->
                                     <td>{{ $transaction->fname }}</td>
                                     <td>{{ $transaction->lname }}</td>
                                     <td>{{ $transaction->email }}</td>
                                     <td>{{ $transaction->phone }}</td>
-                                    <td>{{ $transaction->package }}</td>
+                                    <!-- <td>{{ $transaction->package }}</td> -->
                                     <td>{{ $transaction->date }}</td>
-                                    <td>{{ $transaction->height }}</td>
+                                    <!-- <td>{{ $transaction->height }}</td>
                                     <td>{{ $transaction->width }}</td>
-                                    <td>{{ $transaction->weight }}</td>
+                                    <td>{{ $transaction->weight }}</td> -->
                                     <td>
                                         @if($transaction->mapurl)
                                         <img src="{{ $transaction->mapurl }}" style="width: 100px;" />
@@ -95,7 +95,7 @@
                                     <th>tracking number</th>
                                     <th>from</th>
                                     <th>to</th>
-                                    <th>gender</th>
+                                    <!-- <th>gender</th> -->
                                     <th>first name</th>
                                     <th>last name</th>
                                     <th>email</th>

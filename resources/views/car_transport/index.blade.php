@@ -55,12 +55,12 @@
         <div class="row m-bot-35">
             <div class="sixteen columns">
                 <div class="caption-container-main m-bot-30 m-t-min-1">
-                    <div class="caption-text-container">Proceed Shipping Limited Provides Full Service <b>International Shipping</b></div>
+                    <div class="caption-text-container">ETA Worldwid Provides Full Service <b>International Shipping</b></div>
                     <div class="content-container-white caption-bg "></div>
                 </div>
             </div>
             <div class="sixteen columns">
-                <p>Our Proceed Shipping Limited Global Services division is an International Freight Forwarder and NVOCC specializing in overseas car shipping for a complete range of vehicles, customs clearance filings, and international shipping services for specialized freight including heavy grade equipment, boats and air freight.</p>
+                <p>Our ETA Worldwid Global Services division is an International Freight Forwarder and NVOCC specializing in overseas car shipping for a complete range of vehicles, customs clearance filings, and international shipping services for specialized freight including heavy grade equipment, boats and air freight.</p>
             </div>
         </div>
 

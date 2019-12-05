@@ -57,7 +57,7 @@
 
                                     <h2 data-toptitle="36%">We are now on mobile too!</h2>
 
-                                    <p data-bottomtext="34%">Proceed Shipping Limited Keeping up on-the-go made easy. Stay connected from any phone or tablet.</p>
+                                    <p data-bottomtext="34%">ETA Worldwid Keeping up on-the-go made easy. Stay connected from any phone or tablet.</p>
 
                                     <img src="{{ url('assets/images/sliders/slider-1/slider-item-6.png')}}" class="item" alt="slide-item"  data-topimage="21%"/>
 
@@ -109,7 +109,7 @@
 
                                     <h2 data-toptitle="36%">OVERSEAS MOVING</h2>
 
-                                    <p data-bottomtext="39%"><strong>Proceed Shipping Limited</strong> offers a comprehensive international removals service...</p>
+                                    <p data-bottomtext="39%"><strong>ETA Worldwid</strong> offers a comprehensive international removals service...</p>
 
                                     <div class="links" data-bottomlinks="30%"> <a class="button medium r-m-plus r-m-full" href="moving_transport">READ MORE</a> </div>
 
@@ -133,7 +133,7 @@
 
                                 <div class="sixteen columns contain">
 
-                                    <h2 data-toptitle="36%">Wherever you are, wherever they are Proceed Shipping Limited keeps you together</h2>
+                                    <h2 data-toptitle="36%">Wherever you are, wherever they are ETA Worldwid keeps you together</h2>
 
                                     <div class="links" data-bottomlinks="30%"> <a class="button medium r-m-plus r-m-full" href="cars_transport">READ MORE</a> </div>
 
@@ -211,7 +211,7 @@
 
                                 <h2 class="ca-main">SIGN UP WITH US NOW!</h2>
 
-                                <h3 class="ca-sub">Proceed Shipping Limited offers you solutions to suit all needs.</h3>
+                                <h3 class="ca-sub">ETA Worldwid offers you solutions to suit all needs.</h3>
 
                             </div>
 
@@ -333,9 +333,9 @@
 
             </div>
 
-            <p>Very easy to ship a vehicle from one location to another with low rates. With more than 7 years of experience, Proceed Shipping Limited understands the intricacies involved better than anyone.</p>
+            <p>Very easy to ship a vehicle from one location to another with low rates. With more than 7 years of experience, ETA Worldwid understands the intricacies involved better than anyone.</p>
 
-            <p>At Proceed Shipping Limited, our mission is to make vehicle transporting a positive experience for each customer. When you trust us to ship your car, you receive peace-of-mind, expert advice and superior service.</p>
+            <p>At ETA Worldwid, our mission is to make vehicle transporting a positive experience for each customer. When you trust us to ship your car, you receive peace-of-mind, expert advice and superior service.</p>
 
             <p>Our <a href="contact">Have Questions</a> page highlights <a href="faq">FAQs: CAR SHIPPING 101</a>, which provides helpful answers to common questions</p>
 

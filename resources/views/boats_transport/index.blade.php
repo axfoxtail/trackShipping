@@ -42,8 +42,8 @@
                 <div class="caption-text-container"><b>Boat </b> Shipping Services </div>
                 <div class="content-container-white caption-bg "></div>
             </div>
-            <p>Proceed Shipping Limited offers towable and non-towable boat transport services through numerous partners that deliver safe and secure boat transportation.</p>
-            <blockquote>Proceed Shipping Limited has access to a variety of equipment types to handle any boat shipping need, including boats that are NOT on trailers. We can provide specially engineered trailers with custom racking and bunking to ensure safe and secure transportation for your boat or watercraft.</blockquote>
+            <p>ETA Worldwid offers towable and non-towable boat transport services through numerous partners that deliver safe and secure boat transportation.</p>
+            <blockquote>ETA Worldwid has access to a variety of equipment types to handle any boat shipping need, including boats that are NOT on trailers. We can provide specially engineered trailers with custom racking and bunking to ensure safe and secure transportation for your boat or watercraft.</blockquote>
         </div>
         <div class="seven columns">
             <div class="img-about"> <img class="" alt="about" src="{{url('assets/images/content/boatship.jpg')}}"> </div>
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="sixteen columns">
-                <p>Proceed Shipping Limited uses over 800 independent contractors who haul boats on trailers with one-ton pick-up trucks. To get a free estimate on towable boat transportation, please fill out and submit the quote form on the left side of this page. We will customize a quote to exact needs and type of boat.</p>
+                <p>ETA Worldwid uses over 800 independent contractors who haul boats on trailers with one-ton pick-up trucks. To get a free estimate on towable boat transportation, please fill out and submit the quote form on the left side of this page. We will customize a quote to exact needs and type of boat.</p>
             </div>
         </div>
 

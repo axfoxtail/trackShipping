@@ -30,7 +30,7 @@
                 <div class="caption-text-container"><b>5 simple & secure steps</b> for Buyers and Sellers</div>
                 <div class="content-container-white caption-bg "></div>
             </div>
-            <p>Proceed Shipping Limited reduces the risk of fraud by acting as a trusted third-party that collects, holds and only disperses funds when both Buyers and Sellers are satisfied.</p>
+            <p>ETA Worldwid reduces the risk of fraud by acting as a trusted third-party that collects, holds and only disperses funds when both Buyers and Sellers are satisfied.</p>
             <blockquote>We take part at the selling process by offering our complete Buyers Protection and shipping services.<br><br> We are not just a regular Buyers Protection service, we have the infrastructure to conduct authorized pre-buy inspection on electrical equipment and all types merchandises.</blockquote>
         </div>
         <div class="six columns">
@@ -60,7 +60,7 @@
                     <ul class="tab-post-container text">
                         <li>
                             <p>
-                            <b>&raquo;</b> Proceed Shipping Limited picks up the merchandise from the Seller and conduct a full pre-buy inspection of the merchandise at one of our partner services.<br>
+                            <b>&raquo;</b> ETA Worldwid picks up the merchandise from the Seller and conduct a full pre-buy inspection of the merchandise at one of our partner services.<br>
                             <b>&raquo;</b> Both buyer and seller are informed about the inspection result.<br>
                             </p>
                         </li>
@@ -72,7 +72,7 @@
                         <li>
                             <p>
                             <b>&raquo;</b> The Buyer submits the payment by approved payment method.<br>
-                            <b>&raquo;</b> Proceed Shipping Limited verifies the payment.
+                            <b>&raquo;</b> ETA Worldwid verifies the payment.
                             </p>
                         </li>
                     </ul>
@@ -93,7 +93,7 @@
                     <ul class="tab-post-container text">
                         <li>
                             <p>
-                            <b>&raquo;</b> Proceed Shipping Limited releases funds to the Seller.<br>
+                            <b>&raquo;</b> ETA Worldwid releases funds to the Seller.<br>
                             <b>&raquo;</b> Transaction is complete. <b>Safety and Securely!</b>
                             </p>
                         </li>

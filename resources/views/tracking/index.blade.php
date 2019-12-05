@@ -152,19 +152,19 @@
                 <table width="100%" class="trackingtable">
                     <tr>
                         <td>Full Name:</td>
-                        <td><b>{{Auth::user()->fname}}</b> <b>{{Auth::user()->lname}}</b></td>
+                        <td><b>{{$receiver->fname}}</b> <b>{{$receiver->lname}}</b></td>
                     </tr>	
                     <tr>
                         <td>E-mail:</td>
-                        <td><b>{{Auth::user()->email}}</b></td>
+                        <td><b>{{$receiver->email}}</b></td>
                     </tr>	
                     <tr>
                         <td>Phone number:</td>
-                        <td><b>{{Auth::user()->phone}}</b></td>
+                        <td><b>{{$receiver->phone}}</b></td>
                     </tr>
                     <tr>
                         <td style="min-width: 95px">Mailing address:</td>
-                        <td><b>{{Auth::user()->address}}</b>     <b>{{Auth::user()->city}}</b>   <b>{{Auth::user()->postcode}}</b>  <b>{{Auth::user()->country}}</b></td>
+                        <td><b>{{$receiver->address}}</b>     <b>{{$receiver->city}}</b>   <b>{{$receiver->postcode}}</b>  <b>{{$receiver->country}}</b></td>
                     </tr>	
                 </table>
             </div>

@@ -48,15 +48,15 @@ class QuoteController extends Controller
         $taddress->save();
         
         $quote = new Quote();
-        $quote->package = $request->input('packing');
-        $quote->length = $request->input('length');
-        $quote->width = $request->input('width');
-        $quote->height = $request->input('height');
+        $quote->package = 'yes';
+        $quote->length ='123';
+        $quote->width = '123';
+        $quote->height = '123';
         $quote->weight = $request->input('weight');
         $quote->date = $request->input('datepicker');
         $quote->extra = $request->input('extrainfo');
 
-        $quote->gender = $request->input('gender');
+        $quote->gender = 'mr';
         $quote->fname = $request->input('fname');
         $quote->lname = $request->input('lname');
         $quote->email = $request->input('email');

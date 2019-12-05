@@ -35,7 +35,7 @@
         
         <div class="row">
             <div class="eight columns">
-                <p>Below please find the answers to common questions customers have when shipping a car. Don’t see an answer to your question? Contact one of our Proceed Shipping Limited shipping specialists for further assistance.</p>
+                <p>Below please find the answers to common questions customers have when shipping a car. Don’t see an answer to your question? Contact one of our ETA Worldwid shipping specialists for further assistance.</p>
                 <p><a href="contact">Customer Service &raquo;</a></p>
             </div>
             <div class="eight columns">
@@ -89,7 +89,7 @@
                 <p><span class="dropcap1">Q</span> What if the Buyer does not receive the vehicle?</p>
             </div>
             <div class="sixteen columns">
-                <p><span class="dropcap4">A</span> The Buyer's payment will not be released to the Seller until the Buyer has accepted the vehicle, eliminating the concern for non-shipment or delivery. In the event that the Buyer has paid funds into Proceed Shipping Limited and the Seller does not ship or deliver the vehicle, the Buyer may request Proceed Shipping Limited to start the 48 hour cancellation period. At the conclusion of the cancellation period, the payment is returned to the Buyer less all Proceed Shipping Limited fees.</p>
+                <p><span class="dropcap4">A</span> The Buyer's payment will not be released to the Seller until the Buyer has accepted the vehicle, eliminating the concern for non-shipment or delivery. In the event that the Buyer has paid funds into ETA Worldwid and the Seller does not ship or deliver the vehicle, the Buyer may request ETA Worldwid to start the 48 hour cancellation period. At the conclusion of the cancellation period, the payment is returned to the Buyer less all ETA Worldwid fees.</p>
             </div>
         </div>
             
@@ -99,7 +99,7 @@
                 <p><span class="dropcap1">Q</span> What is Door-to-Door services?</p>
             </div>
             <div class="sixteen columns">
-                <p><span class="dropcap4">A</span> Proceed Shipping Limited will pickup and deliver your vehicle at your specified locations (could be your residence, office, or any other location). The pickup and delivery is often performed by a flatbed truck but in some instances could be performed by our larger car transport truck. Our competitors may advertise door-to-door service but may not be able to truly provide you this service.</p>
+                <p><span class="dropcap4">A</span> ETA Worldwid will pickup and deliver your vehicle at your specified locations (could be your residence, office, or any other location). The pickup and delivery is often performed by a flatbed truck but in some instances could be performed by our larger car transport truck. Our competitors may advertise door-to-door service but may not be able to truly provide you this service.</p>
             </div>
         </div>
                 
@@ -149,7 +149,7 @@
                 <p><span class="dropcap1">Q</span> What is an Inspection Period, when does it start, and how long does it last?</p>
             </div>
             <div class="sixteen columns">
-                <p><span class="dropcap4">A</span> The Inspection Period is the specified amount of time agreed upon by both parties in which the Buyer may examine the merchandise/domain(s) after receipt. The time frame selected for the Buyer can range between 1 to 30 days and must be agreed upon by all parties at the beginning of the transaction. The Inspection Period begins when the Buyer marks the merchandise as received, or Proceed Shipping Limited verifies or receives confirmation that the merchandise has been delivered. The Buyer must accept or reject the goods within this period. If the Buyer has rejected and returned the merchandise, the Seller will be provided with a five day inspection period to examine the returned merchandise.</p>
+                <p><span class="dropcap4">A</span> The Inspection Period is the specified amount of time agreed upon by both parties in which the Buyer may examine the merchandise/domain(s) after receipt. The time frame selected for the Buyer can range between 1 to 30 days and must be agreed upon by all parties at the beginning of the transaction. The Inspection Period begins when the Buyer marks the merchandise as received, or ETA Worldwid verifies or receives confirmation that the merchandise has been delivered. The Buyer must accept or reject the goods within this period. If the Buyer has rejected and returned the merchandise, the Seller will be provided with a five day inspection period to examine the returned merchandise.</p>
             </div>
         </div>
         
@@ -159,7 +159,7 @@
                 <p><span class="dropcap1">Q</span> When does the Seller ship the merchandise?</p>
             </div>
             <div class="sixteen columns">
-                <p><span class="dropcap4">A</span> The Buyer is notified by Proceed Shipping Limited that the merchandise is in their custody. When merchandise arrive in custody of Proceed Shipping Limited, transaction started.</p>
+                <p><span class="dropcap4">A</span> The Buyer is notified by ETA Worldwid that the merchandise is in their custody. When merchandise arrive in custody of ETA Worldwid, transaction started.</p>
             </div>
         </div>
 

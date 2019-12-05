@@ -6,11 +6,11 @@
    <head>
 
 
-      <title>Proceed Shipping Limited - Courier Services & Delivery Company</title>
+      <title>ETA Worldwid - Courier Services & Delivery Company</title>
 
       <meta charset=utf-8 >
 
-      <meta name="keywords" content="Proceed Shipping Limited, Courier Services & Delivery Company" >
+      <meta name="keywords" content="ETA Worldwid, Courier Services & Delivery Company" >
 
       <meta name="description" content="Looking for a reliable international vehicle shipper?. We have helped customers transport their vehicles overseas safely since 2007.">
 

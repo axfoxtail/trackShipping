@@ -63,7 +63,7 @@
                             
                             <!-- ORDER DETAILS -->
                             <div class="receipt-section">
-                                <p>Proceed Shipping Limited Shipment Details</p>
+                                <p>ETA Worldwid Shipment Details</p>
                             </div>
                             
                             <table width="100%" cellspacing="0" class="dark m-bot-30">
@@ -117,11 +117,11 @@
                             <div class="receipt-section">
                                 <p>Transaction Tracking Number</p>
                                 <div class="dark"> #<b><a class="dark" href="tracking.php?tr=PR15724648873UN">{{$transaction->trackingnumber}}</a></b> </div>
-                                <p><b>*</b> Track your package or shipment with <a href="tracking?tr=PR15724648873UN">Proceed Shipping Limited Tracking</a>.</p>
+                                <p><b>*</b> Track your package or shipment with <a href="tracking?tr=PR15724648873UN">ETA Worldwid Tracking</a>.</p>
                             </div>
                             
                             <div class="receipt-section">
-                                <p> <strong>*</strong> Proceed Shipping Limited LEVEL 2 member, <b>Paul James Brighouse</b> as the Seller, initiated a new transaction through Proceed Shipping Limited program and registered you, <b>Stephan Korn</b> LEVEL 1 member, as the Buyer.</p>
+                                <p> <strong>*</strong> ETA Worldwid LEVEL 2 member, <b>Paul James Brighouse</b> as the Seller, initiated a new transaction through ETA Worldwid program and registered you, <b>Stephan Korn</b> LEVEL 1 member, as the Buyer.</p>
                                 <p> <strong>*</strong> We verified all the details of this transaction and we concluded that they are accurate and the transaction is approved. Please follow our instructions to complete the transaction safely. Your purchase is protected for up to 11.700,00 USD.</p>
                             </div>
 
@@ -138,10 +138,10 @@
                         <div class="title-block white m-bot-10">How to make the payment</div>
                         <div class="receipt-section whitish">
                             <p><b>*</b> Payment must be submitted through Bank to Bank transfer to a designated Regional Manager in charge of this transaction.</p>
-                            <span><b>*</b> Proceed Shipping Limited will secure the payment until the buyer receives, inspects and accepts the item. Or, if it will be the case, Proceed Shipping Limited will refund the payment to the buyer.</span>
+                            <span><b>*</b> ETA Worldwid will secure the payment until the buyer receives, inspects and accepts the item. Or, if it will be the case, ETA Worldwid will refund the payment to the buyer.</span>
                             <ul style="list-style-type: disc; margin-bottom: 0; padding-left: 13px" class="white">
-                                <li>Make the payment using our Proceed Shipping Limited agent bank details (Check bellow for the agent details).</li>
-                                <li>Confirm the payment to Proceed Shipping Limited.</li>
+                                <li>Make the payment using our ETA Worldwid agent bank details (Check bellow for the agent details).</li>
+                                <li>Confirm the payment to ETA Worldwid.</li>
                                 <li>Email us the copy of the receipt at: <a href="mailto:office@proceed-shipping.com" target="_top" subject="Payment info - TR: PR15724648873UN">office@proceed-shipping.com</a> or by FAX: </li>
                             </ul>
                         </div>
@@ -154,7 +154,7 @@
                         
                             <!-- RECEIPT HEADER TITLE & PRICE -->
                             <h3 class="title-block m-bot-10 m-t-min-1">Payment information</h3>
-                            <p>Proceed Shipping Limited Regional Manager Bank Details<p>
+                            <p>ETA Worldwid Regional Manager Bank Details<p>
                             <!-- END RECEIPT HEADER TITLE & PRICE -->
                                             
                             <div class="receipt-section">
@@ -206,8 +206,8 @@
                         <div class="receipt-section whitish">
                             <p>The item is insured for damage during the transportation, inspection process and prior to the physical sale. You have 7 days to inspect the item and the option to use an independent Inspection Authority to make sure that the item is as described.</p>
                             <p class="white"><b>1.</b> If you decide to keep the item, we will forward the payment to the seller. </p>
-                            <p class="white"><b>2.</b> In case the buyer will not receive the product in time or as was described in the listing, the buyer will get a full refund from Proceed Shipping Limited by wire transfer. During the Buyer Inspection Period, Buyer may reject one or more items for any reason. Upon such rejection, Proceed Shipping Limited will send both, Buyer and Seller, an email stating Buyer's decision to reject and return the goods and Buyer agrees to promptly ship good to Seller within ten (10) calendar days at seller expense, a full refund is immediately sent to the buyer.</p>
-                            <p>For safety reasons the payment details will be dealt with the utmost security and will not be handed to any third parties. Proceed Shipping Limited will be in full control of the funds as soon as it reaches the regional account. Once the funds have been sent to our regional account, no one but the Purchaser will have access to it.</p>
+                            <p class="white"><b>2.</b> In case the buyer will not receive the product in time or as was described in the listing, the buyer will get a full refund from ETA Worldwid by wire transfer. During the Buyer Inspection Period, Buyer may reject one or more items for any reason. Upon such rejection, ETA Worldwid will send both, Buyer and Seller, an email stating Buyer's decision to reject and return the goods and Buyer agrees to promptly ship good to Seller within ten (10) calendar days at seller expense, a full refund is immediately sent to the buyer.</p>
+                            <p>For safety reasons the payment details will be dealt with the utmost security and will not be handed to any third parties. ETA Worldwid will be in full control of the funds as soon as it reaches the regional account. Once the funds have been sent to our regional account, no one but the Purchaser will have access to it.</p>
                             <p>In order to properly validate your payment and avoid transfer related issues, please forward us a copy of the transfer receipt to us at <span style="color: #ffea00">office@proceed-shipping.com</span>. We hereby take full responsibility for the security of the transfer. please allow us 24 hours to verify payment. Sending the payment by any other method of payment will void this transaction and your right to refund.</p>
                         </div>
                     </div>

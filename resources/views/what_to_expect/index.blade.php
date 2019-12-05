@@ -30,7 +30,7 @@
         <div class="row">
             <div class="sixteen columns">
                 <div class="caption-container-main m-bot-20 m-t-min-1">
-                    <div class="caption-text-container"><b>Proceed Shipping Limited</b> is here to help with your car transport needs</div>
+                    <div class="caption-text-container"><b>ETA Worldwid</b> is here to help with your car transport needs</div>
                     <div class="content-container-white caption-bg "></div>
                 </div>
             </div>
@@ -41,8 +41,8 @@
                 <div class="img-about"> <img class="" alt="about" src="{{url('assets/images/content/motoship.jpg')}}"> </div>
             </div>
             <div class="eleven columns">
-                <p>There is more to shipping a vehicle from one location to another than meets the eye. With more than 17 years of experience, Proceed Shipping Limited understands the intricacies involved better than anyone.</p>
-                <p>If you are new to the process, you may not know what questions to ask while choosing the car shipping service that is right for you. Not to worry. We provide you with the service that you and your vehicle deserve. Proceed Shipping Limited will guide you through the vehicle transport process from start to finish.</p>
+                <p>There is more to shipping a vehicle from one location to another than meets the eye. With more than 17 years of experience, ETA Worldwid understands the intricacies involved better than anyone.</p>
+                <p>If you are new to the process, you may not know what questions to ask while choosing the car shipping service that is right for you. Not to worry. We provide you with the service that you and your vehicle deserve. ETA Worldwid will guide you through the vehicle transport process from start to finish.</p>
             </div>
         </div>
         
@@ -60,7 +60,7 @@
             </div>
             <div class="eleven columns">
                 <ul class="styled-list style-6">
-                    <li><a href="faq.php#type">What types of vehicles can I ship with Proceed Shipping Limited?</a></li>
+                    <li><a href="faq.php#type">What types of vehicles can I ship with ETA Worldwid?</a></li>
                     <li><a href="faq.php#advance">How far in advance should I schedule the transport of my vehicle?</a></li>
                     <li><a href="faq.php#green">How does auto shipping allow for a greener planet?</a></li>
                     <li><a href="faq.php#prepare">How do I prepare my vehicle for transport?</a></li>

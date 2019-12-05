@@ -30,19 +30,19 @@
 		</div>
 		<div class="nine columns">
 			<div class="caption-container-main m-bot-30 m-t-min-1">
-				<div class="caption-text-container">WELCOME TO <b>Proceed Shipping Limited</b></div>
+				<div class="caption-text-container">WELCOME TO <b>ETA Worldwid</b></div>
 				<div class="content-container-white caption-bg "></div>
 			</div>
-			<p> Founded in 1997, <b>Proceed Shipping Limited</b> is one of the largest vehicle shipping service providers in the world. With more than 90 certified partner facilities, Proceed Shipping Limited safely and efficiently transports more than 100,000 vehicles each year. You name it, we have shipped it – everything from cars and motorcycles to vans and specialty vehicles via a variety of proven auto shipping methods.</p>
+			<p> Founded in 1997, <b>ETA Worldwid</b> is one of the largest vehicle shipping service providers in the world. With more than 90 certified partner facilities, ETA Worldwid safely and efficiently transports more than 100,000 vehicles each year. You name it, we have shipped it – everything from cars and motorcycles to vans and specialty vehicles via a variety of proven auto shipping methods.</p>
 		</div>
 	</div>
 	<div class="container clearfix m-bot-35">
 		<div class="caption-container-main m-bot-30 m-t-min-1">
-			<div class="caption-text-container">WHY <b>Proceed Shipping Limited</b></div>
+			<div class="caption-text-container">WHY <b>ETA Worldwid</b></div>
 			<div class="content-container-white caption-bg "></div>
 		</div>
-		<p> <b>Proceed Shipping Limited</b> provides vehicle transport services to customers anywhere across the country and around the world, including individuals, corporations and anyone that has the need to ship a vehicle.</p>
-		<p> <b>Proceed Shipping Limited</b> handles everything that has to do with the actual inland transport, sea freight, air freight, loading & unloading and Customs processing for cars, motorcycles, boats or other vehicles. We have the experience and knowledge to be a full service provider for car handling and shipping / importing of vehicles. Our professional working methods and competitive pricing enables us to offer you a price-quality ratio that can compete with the best in our business. Combined with our great passion for cars and extended logistic experience, you can be sure that every vehicle is being shipped professionally and treated with respect.</p>
+		<p> <b>ETA Worldwid</b> provides vehicle transport services to customers anywhere across the country and around the world, including individuals, corporations and anyone that has the need to ship a vehicle.</p>
+		<p> <b>ETA Worldwid</b> handles everything that has to do with the actual inland transport, sea freight, air freight, loading & unloading and Customs processing for cars, motorcycles, boats or other vehicles. We have the experience and knowledge to be a full service provider for car handling and shipping / importing of vehicles. Our professional working methods and competitive pricing enables us to offer you a price-quality ratio that can compete with the best in our business. Combined with our great passion for cars and extended logistic experience, you can be sure that every vehicle is being shipped professionally and treated with respect.</p>
 	</div>
 	
 	<div class="container clearfix m-bot-30">

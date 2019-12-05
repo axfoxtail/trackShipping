@@ -41,7 +41,7 @@
                 </div>
                 
                 <h3 class="title-block">Insufficient Privileges!</h3>
-                <p>Proceed Shipping Limited imposes transaction limits via so-called user levels. LEVEL 2 accounts have the highest transaction limits. Proceed Shipping Limited set all users at LEVEL 1, and after the required verification only the seller can get to LEVEL 2 status.</p>
+                <p>ETA Worldwid imposes transaction limits via so-called user levels. LEVEL 2 accounts have the highest transaction limits. ETA Worldwid set all users at LEVEL 1, and after the required verification only the seller can get to LEVEL 2 status.</p>
                 
                 <blockquote>
                     To start a <b>transaction</b> you need to do two things:
