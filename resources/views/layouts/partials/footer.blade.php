@@ -1,3 +1,8 @@
+<?php
+   use App\Siteinfo;
+   $info = Siteinfo::first();
+?>
+
 <footer>
 
    <div class="footer-content-bg">
@@ -28,17 +33,17 @@
 
                <ul class="footer-contact-info">
 
-                  <li class="footer-loc"> Globe House, Eclipse Park, Sittingbourne Rd, Maidstone<br/>ME14 3EN, United Kingdom </li>
+                  <!-- <li class="footer-loc"> Globe House, Eclipse Park, Sittingbourne Rd, Maidstone<br/>ME14 3EN, United Kingdom </li> -->
                   
-                  <li class="footer-loc">7245 2nd Ave SW Seattle, WA 98108, USA </li>
+                  <li class="footer-loc"> {{$info->address}}, {{$info->city}},  {{$info->country}}, {{$info->country}} </li>
 
-                  <li class="footer-mail"> office@proceed-shipping.com </li>
+                  <li class="footer-mail">  {{$info->email}} </li>
 
                   <li class="footer-phone">
 
                      <br/>
 
-                     Monday-Friday: 08:00 - 17:00 <br/>Saturday / Sunday: Closed
+                     {{$info->weekstart}}- {{$info->weekend}}:  {{$info->hourstart}} -  {{$info->hourend}} <br/>{{$info->restday1}} / {{$info->restday2}}: Closed
 
                   </li>
 
@@ -72,7 +77,7 @@
 
                </div>
 
-               <div class="footer-copyright-container right-text"> &copy; 2019 Proceed Shipping Limited Company No: 07223653. All Rights Reserved. </div>
+               <div class="footer-copyright-container right-text"> &copy; 2019 {{$info->companyname}} No: 07223653. All Rights Reserved. </div>
 
          </div>
 

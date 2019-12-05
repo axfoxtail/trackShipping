@@ -23,49 +23,46 @@ class TrackingController extends Controller
         $tracking_number = '';
     
         $message = '';
+        $receiver = array();
         $sender =array();
         $faddress = array();
         $taddress = array();
         $transaction = array();
         
-        if(Auth::guest()){
 
+        $tracking_number = $request->input('tr');
+        $transaction = Quote::where('trackingnumber', '=', $tracking_number)->first();
+        
+
+        if($transaction){
+
+            $error = false;
+            $reciever_id = $transaction->user_id;
+            $sender_id = $transaction->senderid;
+            $address_from = $transaction->from;
+            $address_to = $transaction->to;
+            
+            
+
+            $sender = Sender::where('id', '=', $sender_id)->first();
+            $reciever = Sender::where('id', '=', $reciever_id)->first();
+            
+            $faddress = Address::where('id', '=', $address_from)->first();
+            $taddress = Address::where('id', '=', $address_to)->first();
+            
+
+        } else {
+            
             $error = true;
-            $message = 'You should login to see the transation.';
-
-        } else {        
-
-            $tracking_number = $request->input('tr');
-            $transaction = Quote::where('user_id', '=', Auth::user()->id)->where('trackingnumber', '=', $tracking_number)->first();
-          
-
-            if($transaction){
-
-                $error = false;
-
-                $sender_id = $transaction->senderid;
-                $address_from = $transaction->from;
-                $address_to = $transaction->to;
-               
-                
-
-                $sender = Sender::where('id', '=', $sender_id)->first();
-                
-                $faddress = Address::where('id', '=', $address_from)->first();
-                $taddress = Address::where('id', '=', $address_to)->first();
-                
-
-            } else {
-                
-                $error = true;
-                $message = 'There is no data related with this tracking number.';
-            }
+            $message = 'There is no data related with this tracking number.';
         }
+   
         
         return view('tracking.index', [
             'tracking_number' => $tracking_number, 
             'error' => $error, 
             'message' => $message, 
+            'reciever' => $reciever, 
             'sender' => $sender, 
             'faddress' => $faddress, 
             'taddress' => $taddress,

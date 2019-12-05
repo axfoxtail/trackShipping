@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\User;
 use Auth;
+use Illuminate\Support\Facades\Hash;
 use App\Address;
 use App\Quote;
 use App\Mail\TransactionConfirmMail;
@@ -38,14 +39,14 @@ class QuoteController extends Controller
         $faddress->postcode = $request->input('fpostcode');
         $faddress->country = $request->input('fcountry');
         $faddress->save();
-
+        
         $taddress = new Address();
         $taddress->address = $request->input('taddress');
         $taddress->city = $request->input('tcity');
         $taddress->postcode = $request->input('tpostcode');
         $taddress->country = $request->input('tcountry');
         $taddress->save();
-
+        
         $quote = new Quote();
         $quote->package = $request->input('packing');
         $quote->length = $request->input('length');
@@ -67,20 +68,38 @@ class QuoteController extends Controller
         $quote->status = 'created';
 
         if(Auth::guest()){
-            $quote->user_id = 'guest';
+
+            $user = User::where('email', $request->email)->first();
+
+            if($user){
+                $quote->user_id = $user->id;
+            } else {
+
+                $newUser = new User();
+                $newUser->fname = $request->input('fname');
+                $newUser->lname = $request->input('lname');
+                $newUser->email = $request->input('email');
+                $newUser->phone = $request->input('phone');
+                $newUser->username = $request->input('fname');
+                $newUser->role = 'guest';
+                $newUser->password = Hash::make('guest');
+                $newUser->address = $request->input('taddress');
+                $newUser->city = $request->input('tcity');
+                $newUser->postcode = $request->input('tpostcode');
+                $newUser->country = $request->input('tcountry');
+
+                $newUser->save();
+
+                $quote->user_id = $newUser->id;
+
+            }
+            
         } else {
             $quote->user_id = Auth::user()->id;
 
         }
 
         $quote->save();
-
-        // send email to customer
-        $data['quote'] = Quote::with(['users', 'senders', 'fromAddress', 'toAddress'])->find($quote->id);
-        $data['email'] = 'supercoder017@gmail.com';
-        $data['subject'] = 'Confirm!';
-        // dd($data['quote']->users->email);
-        \Mail::to($data['email'])->send(new TransactionConfirmMail($data));
 
         return redirect()->back();
 
