@@ -12,6 +12,7 @@ use App\User;
 use App\Message;
 use App\Quote;
 use App\Sender;
+use App\Siteinfo;
 use App\Mail\ReplyMail;
 use Auth;
 
@@ -243,5 +244,64 @@ class AdminController extends Controller
 
     public function updateTransaction(Request $request, $id) {
 
+    }
+
+    // ================================================ //
+    public function contactInfo(Request $request) {
+        $siteinfo = Siteinfo::first();
+
+        return view('admin.contact.index', ['siteinfo' => $siteinfo]);
+    }
+
+    public function editContactInfo(Request $request) {
+        $siteinfo = Siteinfo::first();
+
+        return view('admin.contact.edit', ['siteinfo' => $siteinfo]);
+    }
+
+    public function updateContactInfo(Request $request) {
+        $validator = Validator::make($request->all(), [
+            'fname' => 'required',
+            'lname' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'url' => 'required',
+            'companyname' => 'required',
+            'address' => 'required',
+            'city' => 'required',
+            'postcode' => 'required',
+            'country' => 'required',
+            'weekstart' => 'required',
+            'weekend' => 'required',
+            'hourstart' => 'required',
+            'hourend' => 'required',
+            'restday1' => 'required',
+        ]);
+        
+        if($validator->fails()) {
+            // dd($validator->errors());
+            return Redirect::back()->withErrors($validator->errors());
+        }
+
+        $siteinfo = Siteinfo::first();
+        $siteinfo->fname = $request->fname;
+        $siteinfo->lname = $request->lname;
+        $siteinfo->email = $request->email;
+        $siteinfo->phone = $request->phone;
+        $siteinfo->url = $request->url;
+        $siteinfo->companyname = $request->companyname;
+        $siteinfo->address = $request->address;
+        $siteinfo->city = $request->city;
+        $siteinfo->postcode = $request->postcode;
+        $siteinfo->country = $request->country;
+        $siteinfo->weekstart = $request->weekstart;
+        $siteinfo->weekend = $request->weekend;
+        $siteinfo->hourstart = $request->hourstart;
+        $siteinfo->hourend = $request->hourend;
+        $siteinfo->restday1 = $request->restday1;
+        $siteinfo->restday2 = $request->restday2 ? $request->restday2 : $siteinfo->restday2;
+        $siteinfo->save();
+
+        return Redirect::back();
     }
 }

@@ -161,6 +161,11 @@ Route::match(array('get', 'post'), '/admin/login', 'AdminController@login')->nam
     Route::post('/transactions/sender/{id}', 'AdminController@sender');
     Route::get('/transactions/edit/{id}', 'AdminController@editTransaction');
     Route::put('/transactions/update/{id}', 'AdminController@updateTransaction');
+
+    // Contact Info Management Module
+    Route::get('/contact', 'AdminController@contactInfo')->name('admin.contactInfo');
+    Route::get('/contact/edit', 'AdminController@editContactInfo');
+    Route::put('/contact/update', 'AdminController@updateContactInfo');
 });
 
 

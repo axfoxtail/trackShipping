@@ -47,7 +47,7 @@
         @else
 
         <!-- LEFT PANNEL -->
-        <div class="ten columns m-bot-35">
+        <div class="ten  m-bot-35">
         
             
             <div class="caption-container-main m-bot-30">
@@ -139,15 +139,10 @@
                 </table>			
 
             </div>
-            
-           
-            
-                        
-            </div>
-        <!-- END LEFT PANNEL -->
-            
-        <!-- SIDEBAR -->
-            <div class="six columns">
+
+
+             <!-- SIDEBAR -->
+             <div class="six columns">
             <div class="caption-container-main m-bot-30">
                 <div class="caption-text-container"><b>Billing & Delivery</b> Details</div>
                 <div class="content-container-white caption-bg "></div>
@@ -174,14 +169,22 @@
                 </table>
             </div>
             
-                    <div class="caption-container-main m-bot-30 m-t-min-1">
+           
+            
+                        
+            </div>
+        <!-- END LEFT PANNEL -->
+            
+       
+            
+                    <!-- <div class="caption-container-main m-bot-30 m-t-min-1">
                 <div class="caption-text-container">Awaiting <b>bank wire payment</b></div>
                 <div class="content-container-white caption-bg "></div>
             </div>
             <p>Bank wire payment. When arranging for your bank wire transfer be sure to make your bank aware that you (the customer) will be paying all bank fees involved in the bank wire transfer. </p>	
             <p>Please send us a bank wire with:</p>
-            <div class="row">
-            <table width="100%">
+            <div class="row"> -->
+            <!-- <table width="100%">
                 <tr>
                     <td><i class="icon-double-angle-right"></i> <i>An amount of: </i></td>
                     <td><b>11.700,00 USD</b></td>
@@ -214,7 +217,7 @@
                     <td><i class="icon-double-angle-right"></i> <i>Sort Code:</i></td>
                     <td><b>40-46-13</b></td>
                 </tr>	
-            </table>
+            </table> -->
 
              <!-- Trigger/Open The Modal -->
              <button id="myBtn" class="nl-button" style="padding: 10"> Route map</button>
