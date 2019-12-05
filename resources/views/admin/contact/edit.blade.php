@@ -64,7 +64,7 @@
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Country</label>
-                                    <input type="text" class="form-control @error('country'){{ 'invalid' }}@enderror" name="country" value="{{ $siteinfo->country }}" placeholder="ZIP Code...">
+                                    <input type="text" class="form-control @error('country'){{ 'invalid' }}@enderror" name="country" value="{{ $siteinfo->country }}" placeholder="Country...">
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -79,25 +79,25 @@
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Week start</label>
-                                    <input type="text" class="form-control @error('weekstart'){{ 'invalid' }}@enderror" name="weekstart" value="{{ $siteinfo->weekstart }}" placeholder="Partner email...">
+                                    <input type="text" class="form-control @error('weekstart'){{ 'invalid' }}@enderror" name="weekstart" value="{{ $siteinfo->weekstart }}" placeholder="Week start...">
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Week end</label>
-                                    <input type="text" class="form-control @error('weekend'){{ 'invalid' }}@enderror" name="weekend" value="{{ $siteinfo->weekend }}" placeholder="Partner email...">
+                                    <input type="text" class="form-control @error('weekend'){{ 'invalid' }}@enderror" name="weekend" value="{{ $siteinfo->weekend }}" placeholder="Week end...">
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Hour start</label>
-                                    <input type="text" class="form-control @error('hourstart'){{ 'invalid' }}@enderror" name="hourstart" value="{{ $siteinfo->hourstart }}" placeholder="Partner email...">
+                                    <input type="text" class="form-control @error('hourstart'){{ 'invalid' }}@enderror" name="hourstart" value="{{ $siteinfo->hourstart }}" placeholder="Hour start...">
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Hour end</label>
-                                    <input type="text" class="form-control @error('hourend'){{ 'invalid' }}@enderror" name="hourend" value="{{ $siteinfo->hourend }}" placeholder="Partner email...">
+                                    <input type="text" class="form-control @error('hourend'){{ 'invalid' }}@enderror" name="hourend" value="{{ $siteinfo->hourend }}" placeholder="Hour end...">
                                 </div>
                             </div>
                         </div>
@@ -105,25 +105,25 @@
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Rest Day</label>
-                                    <input type="text" class="form-control @error('restday1'){{ 'invalid' }}@enderror" name="restday1" value="{{ $siteinfo->restday1 }}" placeholder="Username...">
+                                    <input type="text" class="form-control @error('restday1'){{ 'invalid' }}@enderror" name="restday1" value="{{ $siteinfo->restday1 }}" placeholder="Rest Day...">
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Rest Day 2</label>
-                                    <input type="text" class="form-control @error('restday2'){{ 'invalid' }}@enderror" name="restday2" value="{{ $siteinfo->restday2 }}" placeholder="Username...">
+                                    <input type="text" class="form-control @error('restday2'){{ 'invalid' }}@enderror" name="restday2" value="{{ $siteinfo->restday2 }}" placeholder="Rest Day 2...">
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>URL</label>
-                                    <input type="text" class="form-control @error('url'){{ 'invalid' }}@enderror" name="url" value="{{ $siteinfo->url }}" placeholder="Username...">
+                                    <input type="text" class="form-control @error('url'){{ 'invalid' }}@enderror" name="url" value="{{ $siteinfo->url }}" placeholder="URL...">
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="form-group">
                                     <label>Company Name</label>
-                                    <input type="text" class="form-control @error('companyname'){{ 'invalid' }}@enderror" name="companyname" value="{{ $siteinfo->companyname }}" placeholder="Username...">
+                                    <input type="text" class="form-control @error('companyname'){{ 'invalid' }}@enderror" name="companyname" value="{{ $siteinfo->companyname }}" placeholder="Company Name...">
                                 </div>
                             </div>
                         </div>
