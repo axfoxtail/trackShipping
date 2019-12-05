@@ -8,7 +8,7 @@
 
         <div class="header-logo-container ">
 
-          <div class="logo-container"> <h4> <a href="{{url('home')}}" class="logo" rel="home" title="Home"> Proceed Shipping Limited </a> </h4> </div>
+          <div class="logo-container"> <h4 style="margin-bottom: 0px"> <a href="{{url('home')}}" class="logo" rel="home" title="Home"> ETA Worldwid</a> </h4> </div>
 
         </div>
 

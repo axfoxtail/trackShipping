@@ -11,13 +11,13 @@
 
          <div class="two-thirds column">
 
-               <h3 class="caption footer-block" style="text-transform:uppercase;">Why <b>Proceed Shipping Limited</b></h3>
+               <h3 class="caption footer-block" style="text-transform:uppercase;">Why <b>ETA Worldwid</b></h3>
 
                <div class="footer-contact-info">
 
                   <p>&nbsp;</p>
 
-                  <p class="title-font-14">Proceed Shipping Limited utilizes insured, secured and bonded facilities. NEW - We provide warehousing, packing, crating, trucking and loading services out of our new location in Seattle WA, US</p>
+                  <p class="title-font-14">ETA Worldwid utilizes insured, secured and bonded facilities. NEW - We provide warehousing, packing, crating, trucking and loading services.</p>
 
                   <p class="title-font-14">We own and operate additional cargo shipping companies in Spain & Ireland and more worldwide destinations are covered by our affiliated organization member companies.</p>
                   

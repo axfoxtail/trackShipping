@@ -11,12 +11,12 @@
             <h3>My Account</h3>
         </a>
     </article>
-    <article class="box-icon clearfix">
-        <a href="transactions">
-            <i class="icon-truck"></i>
-            <h3>Transactions </h3>
-        </a>
-    </article>
+    <!--<article class="box-icon clearfix">-->
+    <!--    <a href="transactions">-->
+    <!--        <i class="icon-truck"></i>-->
+    <!--        <h3>Transactions </h3>-->
+    <!--    </a>-->
+    <!--</article>-->
     <article class="box-icon clearfix">
         <a href="quote">
             <i class="icon-dropbox"></i>

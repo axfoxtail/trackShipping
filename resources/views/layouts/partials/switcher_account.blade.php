@@ -18,9 +18,9 @@
 
 			<li><a href="myaccount">View Profile</a></li>
 
-			<li><a href="transactions">View Transactions</a></li>
+			<!--<li><a href="transactions">View Transactions</a></li>-->
 
-			<li><a href="start_transaction">Request new transaction</a></li>
+			<li><a href="quote">Start transaction</a></li>
 
 		</ul>
 
