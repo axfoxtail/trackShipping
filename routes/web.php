@@ -99,7 +99,7 @@ Route::group(['middleware' => 'auth'], function() {
 
     Route::get('/gethelp', 'MessageController@index');
     Route::put('/gethelp/{id}', 'MessageController@insert');
-    Route::get('/transactions', 'QuoteController@index');
+    // Route::get('/transactions', 'QuoteController@index');
     Route::get('/view_transaction/{id}', 'QuoteController@getItem');
     
 });
